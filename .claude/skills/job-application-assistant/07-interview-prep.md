@@ -1,7 +1,5 @@
 # Interview Preparation Guide
 
-<!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
-
 ## STAR Format
 
 Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
@@ -10,47 +8,57 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Micro Center Shift Lead (Leadership / Mentoring)
+**S:** As Repair Technician / Shift Lead at Micro Center (Dallas), the bench was busy and new technicians needed to ramp quickly without hurting customer wait times.
+**T:** Keep shift quality high while training new hires and supporting store operations.
+**A:** Diagnosed complex hardware/software issues myself, mentored new technicians on diagnostic process, and coordinated the shift so tickets stayed moving.
+**R:** New technicians became productive faster; shifts maintained strong customer service under load.
+**Use for:** "Tell me about leadership," "Describe mentoring," "How do you handle pressure?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Godot Indie Games Published on itch.io (Shipping / Ownership)
+**S:** Wanted real player feedback, not just unfinished prototypes.
+**T:** Build complete indie games in Godot/GDScript with playable systems, UI, and polish — then publish.
+**A:** Implemented core gameplay, UI/UX, and iteration based on playtesting; published on cry0smith.itch.io.
+**R:** Shipped public builds and collected real-world engagement/feedback.
+**Use for:** "Tell me about a project you're proud of," "How do you finish work?", "Game development interest"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Multiplayer Server Administration (Systems / Reliability)
+**S:** Multiplayer game servers needed to stay online with plugins, permissions, and security configured correctly.
+**T:** Own installation, configuration, backups, monitoring, and incident response.
+**A:** Configured networking and security, set up backups, monitored performance, and troubleshot outages.
+**R:** More reliable uptime and faster recovery when issues appeared.
+**Use for:** "Describe a systems problem," "How do you ensure reliability?", ops-adjacent questions
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. Freelance React Site – petalgear.com (Client Delivery)
+**S:** Clients needed responsive websites and ongoing updates, not one-off demos.
+**T:** Design/build maintainable React / JS / HTML / CSS sites and support them after launch.
+**A:** Built responsive UIs, delivered updates, and provided technical support.
+**R:** Live client site (petalgear.com) with continued maintenance relationship.
+**Use for:** "Client/stakeholder work," "Full stack / front-end experience," "How do you handle requirements?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 5. Discord Automation Bots (Automation / Product Thinking)
+**S:** Communities needed moderation and workflow automation beyond manual admin work.
+**T:** Build bots that improve community management and UX via the Discord API.
+**A:** Implemented moderation and automation features focused on real moderator pain points.
+**R:** Reduced manual busywork and improved community workflows.
+**Use for:** "Automation," "API integration," "Side projects that solve real problems"
 
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+> For Micro Center / Garland: Frame as growth — strong foundation in systems and customers, now intentionally moving into software engineering while finishing the AS degree. No negativity.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge honestly. Bridge with adjacent experience (e.g., React freelance for front-end gaps; Godot for game roles; server admin for ops). Emphasize learning velocity and shipped projects. Offer a 30–60 day learning plan for the gap.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Growing from junior/full stack into a strong product engineer — ideally contributing in games or player-facing software — with deeper ownership of features and mentorship of others the way you were mentored/trained people at Micro Center.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Limited formal industry SWE tenure compared with career switchers who already sat on product teams. Mitigate by shipping public projects, seeking code review, and targeting junior roles with mentorship. Avoid fake weaknesses.
 
 ### "Why this company specifically?"
-> Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
+> Customize per company. For game studios: cite specific titles, engines, or culture. For product companies: cite product, stack, and remote/junior growth path. Never generic.
 
 ## Questions You Should Ask Interviewers
 
@@ -61,20 +69,18 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ### About the Team
 - "How big is the team, and how do you divide work?"
-- "What does the development/project lifecycle look like, from idea to production?"
-- "How do you onboard new team members?"
+- "What does the development lifecycle look like, from idea to production?"
+- "How do you onboard juniors / new team members?"
 
 ### About Tech & Growth
-- "What's your current tech stack for [relevant area]?"
-- "Is there room to grow into more architectural or strategic decisions?"
+- "What's your current tech stack?"
+- "How much mentorship vs. independent ownership should I expect as a junior?"
 - "How does the team stay current with new tools and methods?"
 
 ### About Culture (use these to prevent disappointment)
 - "How would you describe the team culture?"
-- "What does professional development look like here?"
 - "Is there flexibility for remote/hybrid work?"
-- "What's the balance between development/new projects and maintenance work?"
-- "How would you describe the leadership style in this team?"
+- "What's the balance between new features and maintenance?"
 - "What do people who thrive here have in common?"
 
 ## Phone/Video Interview Tips

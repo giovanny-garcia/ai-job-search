@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Junior / Software Engineer roles:**
+> Computer Science student (AS expected Dec 2026) and builder with hands-on experience shipping React web apps, Discord automation bots, and Godot games. Background in hardware/software troubleshooting and shift leadership at Micro Center, plus remote search-quality evaluation. Seeking an entry-level Software Engineer role where ownership, learning velocity, and shipping features matter.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Full Stack / Front-End roles:**
+> Full-stack-minded developer with freelance React / JavaScript / HTML / CSS delivery (including petalgear.com), Discord API automation, and MongoDB/AWS exposure. Combines client-facing IT reliability with published indie games on itch.io. Looking for a Junior Full Stack or front-end-leaning role on a remote-friendly product team.
+
+**For Game / Studio roles:**
+> Indie game developer using Godot and GDScript with published projects on itch.io (cry0smith.itch.io), plus multiplayer server administration (plugins, networking, security, uptime). Practical systems background from years of PC/server repair. Seeking a junior gameplay, tools, or studio engineering role at a video game company.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

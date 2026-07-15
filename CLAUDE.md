@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Giovanny Garcia
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Giovanny Garcia, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,74 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Giovanny Garcia
+- **Location:** Dallas, TX, USA (prefers remote; open to relocate for an exceptional title, especially at a video game company)
+- **Languages:** English (fluent), Spanish (fluent)
+- **Status:** Computer Science student at Austin Community College; Search Quality Rater at Welocalize; seeking entry-level Software Engineer / Junior / Full Stack roles
+- **LinkedIn headline:** "CS Student | Software & Game Development | Seeking Junior / Full Stack Roles"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Associate of Science in Computer Science** (In Progress, expected December 2026) - Austin Community College
+  - Topics: software development, programming fundamentals, systems
+  - Note: Considering remaining at ACC rather than transferring; bachelor plans undecided — do not list a BS as a current program
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Search Quality Rater** (2024 - Present) - **Welocalize** (Remote)
+  - Evaluated search engine results for relevance, accuracy, and quality across diverse topics
+  - Conducted in-depth research and analysis to maintain high evaluation standards
+- **Repair Technician / Shift Lead** (2022 - 2024) - **Micro Center** (Dallas, TX)
+  - Diagnosed and repaired complex hardware and software issues for customers
+  - Trained and mentored new technicians while supporting daily store operations
+  - Led shift teams to ensure excellent customer service and efficient workflow
+- **Repair Technician** (2018 - 2022) - **Garland Computers** (Garland, TX)
+  - Built, repaired, and tested custom PCs, laptops, and servers
+  - Performed hardware diagnostics, component replacement, and system optimization
+  - Delivered reliable technical solutions for individual and business clients
+
+### Independent Projects
+- **Game Development (Godot)** — Indie games with GDScript; published on itch.io (cry0smith.itch.io)
+- **Multiplayer Server Administration** — Plugins, config, backups, networking, security, uptime
+- **Freelance Web Development** — React / JS / HTML / CSS; client site petalgear.com
+- **Discord Automation Bots** — Moderation and workflow bots via Discord API
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** JavaScript, React, HTML, CSS, Git/GitHub, GDScript/Godot
+- **Secondary:** C#, C++, Discord API, AWS, MongoDB
+- **Domain:** Game development, web apps, bot automation, IT hardware/software support, server administration
+- **Software:** Godot, React, Git, GitHub, Discord API, AWS, MongoDB, Windows, Linux
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None listed
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Provisional, inferred from experience — refine with /setup --section behavioral -->
+- **Hands-on problem solver** - Years diagnosing and fixing hardware/software under customer pressure
+- **Builder / maker** - Ships games, bots, and client websites outside formal employment
+- **Mentorship & leadership** - Shift lead who trained technicians at Micro Center
+- **Strengths:** Practical troubleshooting, shipping projects, bilingual communication, customer-facing composure
+- **Growth areas:** Formal software engineering experience in industry teams; depth in a single stack vs. breadth
+- **Thrives in:** Remote-friendly, product/build-focused environments (especially games); clear ownership of features
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building software and games people actually use
+- Working at a video game company
+- Full stack / junior software engineering work with room to grow
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Video game industry: studios and publishers hiring junior/gameplay/tools/web roles
+- Software / product companies: Junior Software Engineer, Full Stack Developer (remote-first preferred)
+- Adjacent: React/web development, Discord/community tooling, IT-to-SWE transition roles
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Salary below $80k baseline (unless exceptional non-cash upside clearly discussed)
+- On-site-only roles that require relocation without a strong title/company fit (especially non-game)
+- Roles with no software-building component (pure hardware bench work as a long-term destination)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** JavaScript, React, HTML/CSS, Git/GitHub, Godot/GDScript, hardware/software troubleshooting, customer-facing technical support, Discord API bots, Linux/Windows basics
+**Moderate match areas:** C#, C++, AWS, MongoDB, multiplayer server admin, networking
+**Weak match areas:** Formal industry SWE experience, TypeScript (if required without JS bridge), mobile native, heavy backend/system design at scale, CS degree already completed
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** IT hardware/software repair, customer technical support, shift leadership/mentoring, independent game and web project delivery
+**Moderate:** Full stack / front-end freelance web, Discord automation, game server ops
+**Entry-level:** Junior Software Engineer, Full Stack Developer, Gameplay/Tools/Web roles at game companies (projects-first evidence)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,9 +47,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Fully remote: PASS (preferred)
+- Hybrid in Dallas / DFW: PASS
+- Requires relocation for a strong game-industry or exceptional title fit: FLAG (discuss — candidate is open for the right role)
+- On-site-only relocation for a weak/generic title: FAIL
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -63,19 +64,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a Junior Software Engineer or Full Stack Developer role
+- Prefer video game companies when possible
+- Build a software career path out of IT + shipped personal/freelance projects while finishing AS (Dec 2026)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Building games and apps, shipping features, player/user-facing product work, automation bots, practical systems work
+- Tasks that drain: Pure hardware bench work with no software growth; bureaucracy without ownership
+- Non-task factors: remote-friendly culture, game studio energy, clear mentorship for juniors
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Salary floor ~$80k; currently employed part-time-style as Search Quality Rater while in school
+- **Flexibility**: Remote preferred; ACC studies through Dec 2026 — discuss schedule fit for full-time roles
+- **Professional development**: Growth into SWE / full stack / game development with mentorship
 
 ### 6. Salary Benchmark (Optional)
 
