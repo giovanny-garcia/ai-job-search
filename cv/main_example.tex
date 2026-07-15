@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Giovanny Garcia
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Giovanny Garcia - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Giovanny}{Garcia}
+\address{Dallas, TX}{}{}
+\phone[mobile]{+1~(469)~243~8873}
+\email{giovannycse@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}, \href{https://cry0smith.itch.io}{Portfolio}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Computer Science student (AS expected December 2026) seeking an entry-level Software Engineer or Full Stack role. Ships React web apps, Discord automation bots, and Godot games (published on itch.io). Background in hardware/software troubleshooting and shift leadership, with strong bilingual communication (English/Spanish). Prefers remote; especially interested in video game companies.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,33 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Web Development}: JavaScript, React, HTML, CSS; freelance client delivery including petalgear.com.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Game Development}: Godot, GDScript; indie games published at cry0smith.itch.io with gameplay, UI/UX, and polish.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Automation \& APIs}: Discord API bots for moderation and workflow automation.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Systems \& Infrastructure}: Windows/Linux, networking, multiplayer server admin (plugins, backups, security, uptime); AWS and MongoDB exposure.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Technical Support \& Leadership}: Hardware/software diagnostics, customer-facing repair, mentoring technicians, shift leadership.
+
+\end{itemize}
+
+% ============================================================
+%     PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Game Development (Godot)}: Built and published indie games with core gameplay systems, UI/UX, and iteration from player feedback (\href{https://cry0smith.itch.io}{cry0smith.itch.io}).
+
+\item \textbf{Multiplayer Server Administration}: Managed game servers including plugins, configuration, backups, monitoring, networking, permissions, and security.
+
+\item \textbf{Freelance Web Development}: Responsive React/JS sites with ongoing client updates and support (\href{https://petalgear.com}{petalgear.com}).
+
+\item \textbf{Discord Automation Bots}: Moderation and workflow automation bots using the Discord API.
 
 \end{itemize}
 
@@ -76,32 +94,30 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024--Present}{Search Quality Rater}{Welocalize}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Evaluated search engine results for relevance, accuracy, and quality across diverse topics.
+    \item Conducted research and analysis to maintain high evaluation standards.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2022--2024}{Repair Technician / Shift Lead}{Micro Center}{Dallas, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Diagnosed and repaired complex hardware and software issues for customers.
+    \item Trained and mentored new technicians while supporting daily store operations.
+    \item Led shift teams to deliver strong customer service and efficient workflow.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2018--2022}{Repair Technician}{Garland Computers}{Garland, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Built, repaired, and tested custom PCs, laptops, and servers.
+    \item Performed hardware diagnostics, component replacement, and system optimization.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +130,8 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{Expected Dec 2026}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+In progress. Focus on software development and programming fundamentals.
 }}
 
 \end{itemize}
@@ -133,27 +143,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item English (fluent), Spanish (fluent).
 \end{itemize}
 
 % ============================================================
