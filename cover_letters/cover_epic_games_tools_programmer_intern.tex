@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Epic Games, Tools Programmer Intern
+% Compile with: xelatex cover_epic_games_tools_programmer_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Epic Games hiring team,}
+
+\lettercontent{I am applying for the Tools Programmer Intern role (R27410) on the Build Operations Tools team. I build small systems that take repetitive work off other people's plates, then I document them so someone else can run them. I want that habit on the internal tools used to write, build, test, and ship Fortnite, Unreal Engine, and Unreal Editor for Fortnite.}
+
+\lettercontent{Build Operations sits on Unreal Editor, UEFN, and Fortnite workflows while Epic is unifying Unreal Engine and UEFN toward Unreal Engine 6, with Early Access targeted for late 2027. In June 2026 Epic reported UEFN push times down about 40 percent on average, and up to 70 percent on larger projects, from incremental cooking and Zen DDC, with stability tracked as defect escape rate. Unreal Engine 5.8 already ships an experimental MCP plugin so models such as Claude can talk to the editor. I have not used that plugin. I already run Claude Code with a review loop, and that is the habit I want on this team's problems.}
+
+\lettercontent{What I would bring to Build Operations:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Tools people can run:} Slash commands, embed layouts, permission-gated settings, and a \texttt{/quota} report so operators see API usage and cache status without opening the vendor. Adjacent to the GUI-framework ask: shipped command UX, not a desktop editor plugin.
+    \item \textbf{Constraint-aware data flow:} API calls only on explicit \texttt{/sync}. Polling and browse paths read SQLite. Same instinct as incremental cooking: do not recost the expensive path on every click. Usage reporting is persisted daily counters, not a dashboard stack.
+    \item \textbf{Agentic coding with a review loop:} I use Claude Code to draft, then I reject claims that are not in a source file. I would learn C++ and the team's unit and functional test harness on the first Unreal Editor or UEFN workflow you want tightened.
+\end{itemize}\par}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025). C++ and C\# are coursework, not a public Unreal or C\# game repo. The CS2 bot is game-adjacent TypeScript tooling, not C\# gameplay code. I am based in Austin and available for the posted remote term from May 3 to August 27, 2027. I would welcome a conversation about the first Unreal Editor or UEFN workflow you want tightened.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
