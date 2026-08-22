@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - UpAhead, Software Engineering Intern
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://www.linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \urlstyle{same}\href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Thomas Lentine,}
+
+\lettercontent{I applied on LinkedIn today for the Software Engineering Intern role at UpAhead. I am a computer science student at Austin Community College in Austin, and I live the problem the product solves: due dates, grades, slides, and attendance policies sit in Blackboard Ultra, split across courses. For these 12 weeks I can ship React work on the web app and ramp React Native on iOS, aimed at usage, conversion, and retention on that semester view.}
+
+\lettercontent{You started by selling hand-made spreadsheets. The site now turns a syllabus into a schedule in about 30 seconds, syncs Canvas, Moodle, Blackboard, and D2L, and the iOS app students asked for is live. On a team this small, an intern who is the student user and can still ship typed product code is useful. Here is how I would use the 20 hours:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Ship under real constraints:} I built a TypeScript Discord bot that announces CS2 matches. Slash commands read SQLite. Only \texttt{/sync} hits the GGScore REST API, because the free tier allows 3 calls a day. I would bring that constraint-first habit to LMS sync, reminders, and anything that can fail in front of a student.
+    \item \textbf{Reminders students actually open:} Per-server subscribe flow, reminder windows, and a poll loop that posts starting-soon embeds without extra API traffic. Discord is not React. The intern job is still the same class of problem: UpAhead's push, email, and SMS alerts only work if the next deadline shows up without a hunt.
+    \item \textbf{AI as a multiplier:} I use Claude Code to multiply output on implementation, debugging, and refactors. I still own the architecture: cache vs.\ live fetch, quota errors, and what the user sees when the budget is gone.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I do not have production React Native in a public repo. I do have React practice, TypeScript, SQL, and a bias toward shipping. I can do about 20 hours a week, remote, across the 24 August to 16 November window, and I can start on 24 August. I want those hours on the web and iOS apps: usage, conversion, and retention, not a polished demo.}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+% Note: no trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}

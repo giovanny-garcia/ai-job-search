@@ -1,0 +1,149 @@
+%% CV - Giovanny Garcia
+%% Tailored for Software Engineering Intern, UpAhead
+%% Compile with: lualatex main_upahead.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://www.linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computer science student at Austin Community College and daily Blackboard Ultra user. Ships TypeScript and Node.js features with slash-command UX, SQLite persistence, and a cache-first API design so the product stays useful when a third-party quota is tight. Independent React practice plus C++ and C\# from the CS toolkit. Uses Claude Code to multiply output on scoping, debugging, and iteration while keeping the architecture decisions. Next 12 weeks: React on the web app, React Native ramped on the live iOS app, aimed at usage on a semester view students already need.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{TypeScript \& Node.js}: Ships typed backend features with discord.js, REST clients, structured error handling, and local persistence.
+
+\item \textbf{Front-end (React)}: Component-based UI practice. Ready to contribute on the web app (React) and ramp on React Native for the live iOS app.
+
+\item \textbf{SQL \& data modeling}: SQLite schemas for settings, caches, deduplication, and quota tracking so user-facing commands stay fast.
+
+\item \textbf{Product-minded shipping}: Designs around real constraints (API quotas, reminder windows, per-server settings) so the product stays used, not just so ``it works on my machine.''
+
+\item \textbf{AI-assisted development}: Uses Claude Code to multiply output on implementation, debugging, and refactors while keeping the architecture decisions.
+
+\item \textbf{Git \& ownership}: Public GitHub history on a project I scoped, built, and still own end to end.
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot}{\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}}{TypeScript, Node.js, SQLite}{}{\vspace{1pt}
+Personal product that announces upcoming Counter-Strike 2 matches and lets a server browse schedules without burning a scarce third-party API quota.
+\begin{itemize}
+    \item Built a cache-first architecture: slash commands such as \texttt{/matches}, \texttt{/results}, and \texttt{/events} read SQLite, while \texttt{/sync} is the only path that calls the GGScore REST API, so browsing still works when the daily quota is gone.
+    \item Enforced a 3-request/day free-tier budget with quota tracking, typed API errors, and a \texttt{/quota} command so operators can see remaining calls.
+    \item Added per-guild subscriptions, reminder windows, and a poll loop that posts embeds for new or starting-soon matches without extra API traffic.
+    \item Modeled Discord as the client: slash-command UX, permission-gated admin commands, and settings that persist across restarts.
+    \item Owned the full loop: TypeScript toolchain (tsx, tsc), environment config, SQLite via better-sqlite3, and a public README that documents the free-tier strategy.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, Texas}{}{\vspace{1pt}
+Transfer-oriented CS coursework covering programming fundamentals, object-oriented design, and data structures (C++ and C\#). JavaScript, TypeScript, and React are independent practice on top of that base. Daily student user of ACC's Blackboard Ultra LMS: due dates, grades, slides, and attendance policies split across courses, which is the exact problem UpAhead's LMS sync and syllabus extraction consolidate.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Languages}: TypeScript, JavaScript, C++, C\#, SQL.
+
+\item \textbf{Web \& app}: React, Node.js, REST APIs. React Native is a gap I would close on the job against the live iOS app, using React and TypeScript as the ramp.
+
+\item \textbf{Data \& tools}: SQLite, Git, npm, Discord/slash-command UX, Claude Code.
+
+\item \textbf{Practices}: quota-aware API clients, caching, structured errors, README-driven setup, iterating from real user constraints.
+
+\end{itemize}
+
+% ============================================================
+%     ADDITIONAL BACKGROUND
+% ============================================================
+
+\section{Additional Background}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Game development}: Independent C\# practice listed alongside the CS coursework.
+
+\item \textbf{How I work}: I pick a user problem, constrain the design (quotas, permissions, reminders), then ship a vertical slice and iterate. I already own scope end to end on my own project. Ready to do that with the founder on a small team, without waiting for a ticket queue.
+
+\item \textbf{Work setup}: Austin, Texas. US-based. Available about 20 hours a week for the remote internship window (24 August 2026 -- 16 November 2026).
+
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Available upon request.
+\end{itemize}
+
+\end{document}
