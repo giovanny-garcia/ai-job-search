@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Oaklin Lane, AI & Automation Intern
+% Compile with: xelatex cover_oaklin_lane_ai_automation_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Chris Callander,}
+
+\lettercontent{I am applying for the AI \& Automation Intern role. I build small systems that take repetitive work off people's plates: a TypeScript Discord bot that respects a tight API quota, and a Claude Code workflow that turns job-search admin into a repeatable process. Your careers page says therapists drown in paperwork between sessions. That is the work I want as you grow past Rockwall and Lake Highlands, with Utah listed as coming soon.}
+
+\lettercontent{You put speech, occupational, physical, feeding, and sensory therapy under one roof so a family is not their own care coordinator. The Pediatric Collective extends that idea to the field: one monthly room for pediatricians, therapists, and practice leaders. Clinic ops and that community only scale if intake, reporting, recruiting, and family communication work the same at the next site as they do at Rockwall. I would sit with the person doing the slow step, prototype a tool, and measure whether it saved time.}
+
+\lettercontent{What I would bring in the first months:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Prototype, then prove it:} One loop from the intern brief (a recurring operating report, a recruiting screen, an internal knowledge assistant, or a Utah opening checklist) shipped as a Claude Code or API-backed draft you can reject or keep.
+    \item \textbf{Constraint-aware automation:} The Discord bot calls GGScore only on an explicit sync, then serves commands from SQLite. I would score vendors the same way: cost, rate limits, security, and whether a coordinator can run it. I have not handled PHI. I would follow your safeguards.
+    \item \textbf{Docs other people can run:} The bot README covers setup and quota. I would write the same kind of instructions for any tool clinicians or coordinators have to touch.
+\end{itemize}\par}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025) and I am based in Austin. I can work the posted part-time schedule of about 20 hours a week remotely, or a fuller summer stretch if that helps. I have not worked in a clinic. I turn an ambiguous constraint into a working prototype, document it, and keep generated claims tied to source files. I would welcome a conversation about the first process you want automated.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
