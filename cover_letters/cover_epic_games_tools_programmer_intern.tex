@@ -29,20 +29,20 @@
 \currentdate{\today}
 \lettercontent{Dear Epic Games hiring team,}
 
-\lettercontent{I am applying for the Tools Programmer Intern role (R27410) on the Build Operations Tools team. I build small systems that take repetitive work off other people's plates: a TypeScript Discord bot that respects a 3-request/day API quota, and a Claude Code workflow that turns job-search admin into a repeatable process. That is the work I want on internal tools used to make Fortnite, Unreal Engine, and Unreal Editor for Fortnite.}
+\lettercontent{I am applying for the Tools Programmer Intern role (R27410) on the Build Operations Tools team. I build small systems that take repetitive work off other people's plates, then I document them so someone else can run them. I want that habit on the internal tools used to write, build, test, and ship Fortnite, Unreal Engine, and Unreal Editor for Fortnite.}
 
-\lettercontent{In June 2026, Epic's UEFN team (Kavita Chodavarapu and Chris Gagnon) reported that push times are down about 40 percent on average, and up to 70 percent on larger projects, through incremental cooking, Zen DDC, and better validation. Stability work is measured in defect escape rate. I want to sit on the tools side of that problem: make the next human interaction cheaper, then prove it with tests and usage data.}
+\lettercontent{Build Operations sits on Unreal Editor, UEFN, and Fortnite workflows while Epic is unifying Unreal Engine and UEFN toward Unreal Engine 6, with Early Access targeted for late 2027. In June 2026 Epic reported UEFN push times down about 40 percent on average, and up to 70 percent on larger projects, from incremental cooking and Zen DDC, with stability tracked as defect escape rate. Unreal Engine 5.8 already ships an experimental MCP plugin so models such as Claude can talk to the editor. I have not used that plugin. I already run Claude Code with a review loop, and that is the habit I want on this team's problems.}
 
 \lettercontent{What I would bring to Build Operations:}
 
 {\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
 \begin{itemize}
-    \item \textbf{Tools people can run:} Slash commands, embed layouts, and a \texttt{/quota} report so operators see API usage and cache status without opening the vendor. I have not shipped a desktop GUI framework. I have shipped command UX.
-    \item \textbf{Constraint-aware data flow:} API calls only on explicit sync. Polling and browse paths read SQLite. I would treat Unreal editor workflows the same way: do not make the expensive path the default.
-    \item \textbf{Agentic coding with a quality bar:} I use Claude Code to draft, then I reject claims that are not in a source file. I have not written Unreal unit tests. I am ready to learn C++ and the team's test harness on the job.
+    \item \textbf{Tools people can run:} Slash commands, embed layouts, permission-gated settings, and a \texttt{/quota} report so operators see API usage and cache status without opening the vendor. Adjacent to the GUI-framework ask: shipped command UX, not a desktop editor plugin.
+    \item \textbf{Constraint-aware data flow:} API calls only on explicit \texttt{/sync}. Polling and browse paths read SQLite. Same instinct as incremental cooking: do not recost the expensive path on every click. Usage reporting is persisted daily counters, not a dashboard stack.
+    \item \textbf{Agentic coding with a review loop:} I use Claude Code to draft, then I reject claims that are not in a source file. I would learn C++ and the team's unit and functional test harness on the first Unreal Editor or UEFN workflow you want tightened.
 \end{itemize}\par}
 
-\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025). C++ and C\# are coursework skills. I have not shipped Unreal or C\# game features. I am based in Austin and available for the posted remote term from May 3 to August 27, 2027. I would welcome a conversation about the first developer workflow you want tightened.}
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025). C++ and C\# are coursework, not a public Unreal or C\# game repo. The CS2 bot is game-adjacent TypeScript tooling, not C\# gameplay code. I am based in Austin and available for the posted remote term from May 3 to August 27, 2027. I would welcome a conversation about the first Unreal Editor or UEFN workflow you want tightened.}
 
 \begin{flushright}
 \closing{Kind regards,}
