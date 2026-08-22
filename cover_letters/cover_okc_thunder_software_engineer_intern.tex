@@ -1,0 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - OKC Thunder, Software Engineer Intern / Basketball Operations
+% Compile with: xelatex cover_okc_thunder_software_engineer_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+\currentdate{\today}
+\lettercontent{Dear Insight \& Foresight team,}
+
+\lettercontent{I am applying for the Software Engineer Intern role in Basketball Operations, reporting to Insight \& Foresight. I build small data systems and applications: ingest an external feed, store it, and serve views other people can act on without hitting the vendor every time. That is the work I want next to Thunder engineers who maintain data systems for team and player performance, player evaluation, and strategic planning.}
+
+\lettercontent{Oklahoma City's 2025 title followed Sam Presti's bet on internal development and a homegrown core, with only a few strategic additions. Insight \& Foresight tools only matter if the next performance, evaluation, or planning decision is looking at data that is actually current, including on evenings and weekends. I want to help maintain that plumbing.}
+
+\lettercontent{What I would bring:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{JavaScript and SQL, shipped:} A TypeScript/Node bot that caches GGScore match data in SQLite and serves commands and reminders from local tables. API calls happen only on an explicit sync. That is intern-scale data systems work on Counter-Strike schedules, not NBA player files.
+    \item \textbf{Applications for data-driven decisions:} A poll loop posts new-item and starting-soon alerts from cache, with backoff when a pass fails. I have not built NBA real-time systems. I have built an application that stays usable when the external source is rate-limited.
+    \item \textbf{Confidential data:} API keys stay out of git. I have not handled medical or player-evaluation files. I would follow Thunder access rules from day one rather than invent them.
+\end{itemize}\par}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025) and I am based in Austin, authorized to work in the United States. I am not claiming current enrollment. I can work remotely within the 29-hour weekly cap. I pick up tools on a live problem, and I would welcome a conversation about the first data system you would want an intern maintaining.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
