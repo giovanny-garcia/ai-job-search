@@ -1,0 +1,117 @@
+%% CV - Giovanny Garcia
+%% Tailored for Oklahoma City Thunder, Software Engineer Intern / Basketball Operations
+%% Compile with: lualatex main_okc_thunder.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+\makeatletter
+\AtBeginDocument{%
+  \@ifundefined{firstnamestyle}{}{\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}}%
+  \@ifundefined{lastnamestyle}{}{\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}}%
+}
+\makeatother
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas, United States}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{linkedin.com/in/giovanny-garcia-07ab24322}, \href{https://github.com/giovanny-garcia}{github.com/giovanny-garcia}}
+
+\begin{document}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+
+\makecvtitle
+
+\vspace{6pt}
+\small{Computer Science graduate (Associate of Science, Austin Community College) who builds backend data systems and applications: ingest an external API, persist it in SQL, and serve timely views other people can trust. Seeking the Oklahoma City Thunder Software Engineer Intern role in Basketball Operations (Insight \& Foresight) to work with engineers on data systems used for team and player performance, player evaluation, and strategic planning. JavaScript/TypeScript, SQL (SQLite), and Node.js.}
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Back-end software engineering:} TypeScript / JavaScript on Node.js. REST clients, slash-command applications, and SQLite-backed services. Secondary coursework skills in C++, C\#, and React.
+
+\item \textbf{Data systems (SQL, persistence):} Implement and maintain SQLite schemas for settings, deduplication, cached payloads, and daily usage counters. Combine upcoming, results, and reference tables so commands and alerts read a local source of truth instead of hitting the vendor on every request.
+
+\item \textbf{External data sources:} Pull public match data from a rate-limited API, track quota in the database, and fail closed when a sync errors (exponential backoff on the poll loop).
+
+\item \textbf{Applications (timely, data-driven):} Discord slash commands for matches, results, events, quota, and settings. A poll loop posts new-item and starting-soon reminders from cache so users get updates without refreshing the vendor. Timely from a local database, not NBA real-time.
+
+\item \textbf{Confidential information:} API keys stay in \texttt{.env} (gitignored). I have not handled medical, physical-performance, or player-evaluation files. README covers setup, environment variables, and a usage plan so another person can run the system without burning the daily quota on boot.
+
+\end{itemize}
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot (TypeScript, Node.js, SQLite)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}
+\begin{itemize}
+    \item Implemented a backend data system that ingests a public external API (GGScore) and serves applications (slash commands, announcements, reminders) from SQLite. Counter-Strike 2 schedules, not NBA player or medical files.
+    \item Designed a cache-first data path: API calls happen only on an explicit \texttt{/sync}. Browse commands and the poll loop read local tables so a 3-request/day free tier is not wasted.
+    \item Persisted guild settings, seen-item deduplication, cached datasets, and daily API usage (WAL mode), including upserts and quota counters.
+    \item Implemented a poll loop that posts new-match and starting-soon reminders from cache, with exponential backoff when a pass fails.
+    \item Documented setup, environment variables, and a free-tier usage plan so another person can operate the bot without burning quota on boot.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Applied AI job-search workflow (Claude Code)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/ai-job-search}{github.com/giovanny-garcia/ai-job-search}
+\begin{itemize}
+    \item Forked and ran an open-source application framework on Claude Code to evaluate postings and produce structured documents from a source profile.
+    \item Keep generated claims tied to source files. Administrative documents, not basketball analytics and not player medical or confidential basketball operations data.
+\end{itemize}}}
+
+\end{itemize}
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+Coursework foundation in programming and software development. LinkedIn-listed skills include C++, C\#, and React. Seeking a paid, remote Basketball Operations internship under 29 hours a week. Completed AS (2022--2025); current enrollment not claimed.
+}}
+
+\end{itemize}
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite), C++, C\#.
+\item \textbf{Tools and platforms:} Node.js, discord.js, Git/GitHub, SQLite, REST APIs.
+\item \textbf{Working style:} Learn unfamiliar tools on a live problem, which is how the Discord bot got built.
+\end{itemize}
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English.
+\end{itemize}
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}
