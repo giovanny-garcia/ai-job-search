@@ -1,0 +1,143 @@
+%% CV - Giovanny Garcia
+%% Tailored for Oaklin Lane, AI & Automation Intern
+%% Compile with: lualatex main_oaklin_lane.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas, United States}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computer Science student (Associate of Science, Austin Community College) who builds practical automation, not research demos. I connect APIs, cache data, and use large language models such as Claude Code to turn repetitive work into tools other people can run. Seeking the Oaklin Lane AI \& Automation Intern role to apply that same approach to clinic operations: reporting, recruiting, family communications, and internal knowledge.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Applied AI (Claude Code, LLMs):} Use Claude Code to evaluate problems, draft structured documents, and automate administrative workflows. Comfortable testing prompts and iterating until a tool is usable.
+
+\item \textbf{APIs and software development:} TypeScript / JavaScript on Node.js. REST clients, slash-command bots, and SQLite-backed services. Secondary coursework skills in C++, C\#, and React.
+
+\item \textbf{Automation under constraints:} Cache-first design, quota tracking, and poll loops so daily work does not burn limited API calls. Maps directly to building internal tools that must respect cost, rate limits, and reliability.
+
+\item \textbf{Data and persistence:} SQLite schemas for settings, deduplication, cached payloads, and daily usage counters. Comfortable organizing information so dashboards and reports can read a local source of truth.
+
+\item \textbf{Documentation and independent delivery:} README-level setup guides, environment-variable contracts, and usage strategies so someone else can run the system. Comfortable owning a problem from idea to a working prototype.
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot (TypeScript, Node.js, SQLite)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}
+\begin{itemize}
+    \item Built a Discord bot that announces upcoming Counter-Strike 2 matches from the GGScore public API, with slash commands for matches, results, events, countries, quota, and guild settings.
+    \item Designed a cache-first architecture: API calls happen only on an explicit \texttt{/sync}. Announcements, reminders, and browse commands read SQLite so the 3-request/day free tier is not wasted.
+    \item Persisted guild settings, seen-item deduplication, cached datasets, and daily API usage in SQLite (WAL mode), including upserts and quota counters.
+    \item Implemented a poll loop that posts new-match and starting-soon reminders from cache, with exponential backoff when a pass fails.
+    \item Documented setup, environment variables, and a free-tier usage plan so the bot can be run without burning the daily quota on boot.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Applied AI job-search workflow (Claude Code)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/ai-job-search}{github.com/giovanny-garcia/ai-job-search}
+\begin{itemize}
+    \item Forked and run an open-source application framework on Claude Code to evaluate job postings, tailor a CV, and draft cover letters from a structured profile.
+    \item Treat Claude Code as an operations tool: same class of work as summarizing documents, generating reports, and turning a messy process into a repeatable workflow.
+    \item Keep claims tied to source files so the output stays factual. Relevant to Oaklin Lane's need for responsible AI use around sensitive information.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+Coursework foundation in programming and software development. LinkedIn-listed skills include C++, C\#, game development, and React. Currently seeking applied internships that combine building with real operations.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite), C++, C\#.
+\item \textbf{Tools and platforms:} Node.js, discord.js, Git/GitHub, SQLite, REST APIs, Claude Code.
+\item \textbf{Not yet used in shipped work:} Python, Zapier, Make, n8n, Airtable. Ready to learn them on the job. The posting lists these as helpful, not required.
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English.
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

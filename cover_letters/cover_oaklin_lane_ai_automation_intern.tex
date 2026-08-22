@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Oaklin Lane, AI & Automation Intern
+% Compile with: xelatex cover_oaklin_lane_ai_automation_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Chris Callander,}
+
+\lettercontent{I am applying for the AI \& Automation Intern role at Oaklin Lane. I build small systems that take repetitive work off people's plates: a TypeScript Discord bot that respects a tight API quota, and a Claude Code workflow that turns job search admin into a repeatable process. I want to put that same practical approach on clinic operations as you grow neighborhood sites beyond Rockwall and Lake Highlands.}
+
+\lettercontent{Oaklin Lane's stated problem is access. Families wait too long for speech, occupational, physical, and feeding therapy, and they should not have to coordinate three clinics to get one plan. You put those specialties under one roof. That only scales if intake, authorizations, reporting, recruiting, and family communication stop living in one-off spreadsheets. That is the work I want: find the slow step, prototype a tool, measure whether it actually saved time.}
+
+\lettercontent{What I would bring in the first months:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Prototype, then prove it:} I would start with one painful loop (a recurring ops report, a recruiting screen, or an internal FAQ) and ship a Claude- or API-backed draft the team can reject or keep.
+    \item \textbf{Constraint-aware automation:} My CS2 Discord bot calls GGScore only on an explicit sync, then serves slash commands and reminders from SQLite so a 3-request/day limit is not burned. I would treat vendor cost, rate limits, and PHI risk the same way.
+    \item \textbf{Docs that other people can run:} The bot ships with a setup guide and a free-tier usage plan. I would write the same kind of instructions for any tool we ask clinicians or coordinators to touch.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022--2025) and I am based in Austin, which fits the remote US internship. I do not have clinic or health-tech employment. I do have a habit of turning an ambiguous constraint into a working prototype, which is what this posting asks for. I would welcome a conversation about the first process you would want automated.}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
