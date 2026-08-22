@@ -1,50 +1,53 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+Self-assessment from public work. No PI, DISC, or Myers-Briggs report is on file. Do not invent assessment scores.
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Giovanny Garcia's public work reads as an **independent builder**. He ships small, usable tools (a Discord bot, a Claude Code job-search workflow) and designs around real constraints instead of ignoring them.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Building / making | High | Public repos show finished personal tools, not only coursework screenshots |
+| Independence | High | Projects appear to be solo |
+| Constraint-awareness | High | Bot architecture is built around a 3-request/day API quota |
+| Formal collaboration | Unknown | No documented team, internship, or manager relationship |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Practical over theoretical:** chooses cache-first design so daily use does not burn API quota.
+- **Tool experimenter:** adopted Claude Code to run a structured application workflow.
+- **Written communication:** bot README covers setup, limits, and usage strategy.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Ownership of a bounded problem ("make this repetitive process cheaper or faster")
+- Room to try unfamiliar tools
+- Work that ships to real users, even a small Discord server
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Professional collaboration:** frame as ready to work with clinicians and operators, not as already having that experience.
+- **Healthcare operations:** honest gap. Adjacent skill is translating messy processes into tools, not clinic ops itself.
+- **Sensitive data:** no documented HIPAA or PHI work. Frame as careful with API keys and secrets in the bot, and willing to follow healthcare safeguards. Do not claim healthcare compliance experience.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- practical AI, not research
+- prototypes, automation, ambiguous problems
+- work independently, experiment with unfamiliar tools
+- document workflows, present to leadership
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- current undergraduate/graduate student if enrollment cannot be confirmed
+- healthcare operations or health technology experience
+- vendor evaluation, Zapier/Make/n8n, Python (not documented)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Direct access to a problem owner (this intern reports to the CEO) is a match for high-ownership work
+- Heavy process without a chance to ship would likely drain
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with tools built and constraints handled, not adjectives
+- **CV:** Independent Projects first; do not invent employment
+- **Interviews:** walk through the cache-first bot and the Claude Code workflow as STAR examples
+- **Don't overstate:** no paid work, no healthcare, no GPA, no Zapier/Python unless later documented

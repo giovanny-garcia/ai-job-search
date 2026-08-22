@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Epic Games, Tools Programmer Intern
+% Compile with: xelatex cover_epic_games_tools_programmer_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Epic Games hiring team,}
+
+\lettercontent{I am applying for the Tools Programmer Intern role (R27410) on the Build Operations Tools team. I build small systems that take repetitive work off other people's plates: a TypeScript Discord bot that respects a 3-request/day API quota, and a Claude Code workflow that turns job-search admin into a repeatable process. That is the work I want on internal tools used to make Fortnite, Unreal Engine, and Unreal Editor for Fortnite.}
+
+\lettercontent{In June 2026, Epic's UEFN team (Kavita Chodavarapu and Chris Gagnon) reported that push times are down about 40 percent on average, and up to 70 percent on larger projects, through incremental cooking, Zen DDC, and better validation. Stability work is measured in defect escape rate. I want to sit on the tools side of that problem: make the next human interaction cheaper, then prove it with tests and usage data.}
+
+\lettercontent{What I would bring to Build Operations:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Tools people can run:} Slash commands, embed layouts, and a \texttt{/quota} report so operators see API usage and cache status without opening the vendor. I have not shipped a desktop GUI framework. I have shipped command UX.
+    \item \textbf{Constraint-aware data flow:} API calls only on explicit sync. Polling and browse paths read SQLite. I would treat Unreal editor workflows the same way: do not make the expensive path the default.
+    \item \textbf{Agentic coding with a quality bar:} I use Claude Code to draft, then I reject claims that are not in a source file. I have not written Unreal unit tests. I am ready to learn C++ and the team's test harness on the job.
+\end{itemize}\par}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025). C++ and C\# are coursework skills. I have not shipped Unreal or C\# game features. I am based in Austin and available for the posted remote term from May 3 to August 27, 2027. I would welcome a conversation about the first developer workflow you want tightened.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
