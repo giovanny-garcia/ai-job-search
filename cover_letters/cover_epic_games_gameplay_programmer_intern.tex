@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Epic Games, Gameplay Programmer Intern
+% Compile with: xelatex cover_epic_games_gameplay_programmer_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Epic Games hiring team,}
+
+\lettercontent{I am applying for the Gameplay Programmer Intern role (R27398) on LEGO Fortnite. I build player-facing features, then I debug them when live use exposes a failure. The posting puts interns on real update work with programmers, designers, and artists. I want that seat to prototype gameplay features, fix bugs in gameplay systems, and learn to write clean C++ in Unreal Engine.}
+
+\lettercontent{LEGO Fortnite Odyssey is a live product. In August 2026, update 42.00 replaced Guided Build with Quick Build as the default, and Creator Builds started shipping community structures into the mode, with more building skills planned through the rest of the year. That is the intern work: new mechanics, bugs, and iteration with designers and artists. I have shipped a live feature that other people can run. I have not written Unreal gameplay C++ yet. The next feature I want to ship is a LEGO Fortnite gameplay task on that team.}
+
+\lettercontent{What I would bring to a gameplay intern seat:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/, BoldFont = Raleway-Bold]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Prototype with art and design:} I would take a LEGO Fortnite feature from a design note to something players can use. Evidence I can show: CS2 match data becomes slash commands, embeds, and starting-soon reminders a small group actually runs.
+    \item \textbf{Debug and fix live systems:} I would trace a bad path, make the failure inspectable, and stop it from spinning. Evidence I can show: the poll loop reads cache only, backs off (capped at one hour) when an announce pass fails, and exposes quota and cache status on \texttt{/quota}.
+    \item \textbf{Learn clean Unreal C++ under review:} C++ and C\# are coursework, not a public Unreal repo. I already run Claude Code with a review loop that rejects claims not in a source file. I would take that same loop onto Unreal C++ and notes from the team.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I completed an Associate of Science in Computer Science at Austin Community College (2022 to 2025). I am based in Austin and available for the posted term from May 10 to August 27, 2027. I would welcome a conversation about the first LEGO Fortnite gameplay feature you want prototyped or the first bug you want closed.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
