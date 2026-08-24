@@ -1,0 +1,148 @@
+%% CV - Giovanny Garcia
+%% Tailored for Epic Games, Gameplay Programmer Intern (R27398)
+%% Compile with: lualatex main_epic_games.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+\makeatletter
+\AtBeginDocument{%
+  \@ifundefined{firstnamestyle}{}{\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}}%
+  \@ifundefined{lastnamestyle}{}{\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}}%
+}
+\makeatother
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas, United States}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{linkedin.com/in/giovanny-garcia-07ab24322}, \href{https://github.com/giovanny-garcia}{github.com/giovanny-garcia}}
+
+\begin{document}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computer Science graduate (Associate of Science, Austin Community College) who ships player-facing game tools. Built a TypeScript Discord bot that turns Counter-Strike 2 match data into live announcements and starting-soon reminders, with a cache-first design so a 3-request/day API quota is not burned by routine use. Seeking Epic's paid Gameplay Programmer Intern role on LEGO Fortnite (May 10 to August 27, 2027) to prototype features with art and design, debug gameplay systems, and learn clean C++ in Unreal Engine. C++ is coursework. Public proof of shipping is TypeScript game tooling. I learn unfamiliar tools on a live problem.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Player-facing features:} Built slash commands, embed layouts, subscribe/unsubscribe, and starting-soon reminders so a small group can follow CS2 matches without checking the vendor site. Transferable prototyping habit: ship a feature people actually use, then iterate when live use fails.
+
+\item \textbf{Debugging and reliability:} Poll loop reads cache only, posts new-match and starting-soon reminders, and uses exponential backoff (capped at one hour) when an announce pass fails. SQLite persistence for guild settings, seen-item deduplication, cached datasets, and daily API usage counters so failures are inspectable instead of silent.
+
+\item \textbf{C++ foundation:} Coursework in C++ and C\# (LinkedIn-listed), plus LinkedIn-listed game development. Public shipped code is TypeScript. I learn unfamiliar tools on a live problem, which is how I would take the first assigned LEGO Fortnite feature into clean, maintainable Unreal C++.
+
+\item \textbf{Problem-solving under constraints:} GGScore free tier is 3 requests/day. API calls happen only on an explicit \texttt{/sync}. Browse commands, announcements, and the poll loop read SQLite so daily use does not waste quota. Constraint-aware design: keep the expensive path off routine use.
+
+\item \textbf{Communication and feedback:} README covers setup, environment variables, free-tier call budget, and a recommended first sync so another person can run the bot without guessing. I write down limits, reject bad output (including from Claude Code), and iterate until the system is runnable by someone else. That is the review habit I would bring to team discussions and notes from art and design.
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot (TypeScript, Node.js, SQLite)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}
+\begin{itemize}
+    \item Prototyped and implemented a player-facing live feature: public Counter-Strike 2 match data (GGScore API) becomes slash commands, embed announcements, and starting-soon reminders a small group can use without checking the source by hand.
+    \item Designed a cache-first architecture: API calls happen only on an explicit \texttt{/sync}. Browse commands, announcements, and the poll loop read SQLite so the 3-request/day free tier is not wasted on routine use.
+    \item Split the code into services (API client, cache, announce, poll), command modules, SQLite storage, and embed helpers. Persistence covers guild settings, seen-item deduplication, cached datasets, and daily API usage counters.
+    \item Debugged live behavior in the poll loop: new-match and starting-soon reminders post from cache, with exponential backoff (capped at one hour) when a pass fails, so a bad announce does not spin the bot.
+    \item Operator UX: \texttt{/subscribe}, \texttt{/settings}, and \texttt{/quota} (ephemeral usage and cache status). Manage Server permission gates sync and settings. Documented the free-tier call budget so another person can run the bot without burning quota on boot.
+    \item Packaged the project so another person can run it: Node 18+, \texttt{tsx} for development, TypeScript compile to \texttt{dist/}, \texttt{.env.example}, and a README covering setup, environment variables, and a recommended first sync.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Applied AI job-search workflow (Claude Code)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/ai-job-search}{github.com/giovanny-garcia/ai-job-search}
+\begin{itemize}
+    \item Forked and ran an open-source application framework on Claude Code to evaluate job postings, tailor a CV, and draft cover letters from a structured profile.
+    \item Treat Claude Code as a development tool, not a demo: summarize source documents, generate structured reports, and turn a messy admin process into a repeatable workflow with review in the loop.
+    \item Keep generated claims tied to source files so the agent cannot invent jobs, GPA, or Unreal experience. Working habit: direct Claude Code, reject bad output, iterate until another person can rerun the workflow.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+Coursework foundation in programming and software development, including LinkedIn-listed C++, C\#, and game development. No public Unreal or C\# game repo.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite). Coursework: C++, C\#.
+\item \textbf{Tools and platforms:} Node.js, discord.js, Git/GitHub, SQLite, REST APIs, Claude Code.
+\item \textbf{Practices:} Player-facing feature implementation, cache-first API design, quota tracking, poll-loop debugging with backoff, service-split maintainable structure, TypeScript packaging to dist/, README-level documentation, agentic workflows with human review (Claude Code).
+\item \textbf{Gaps:} No public Unreal Engine or Unreal gameplay C++. No unit/functional test suites, CI, or studio team collaboration in public work.
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English.
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}
