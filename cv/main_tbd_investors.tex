@@ -1,0 +1,167 @@
+%% CV - Giovanny Garcia
+%% Tailored for TBD Investors, Software Engineering Intern
+%% Compile with: lualatex main_tbd_investors.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas, United States}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{linkedin.com/in/giovanny-garcia-07ab24322}, \href{https://github.com/giovanny-garcia}{github.com/giovanny-garcia}}
+
+\begin{document}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computer Science graduate (Associate of Science, Austin Community College) who builds operating tools, not research demos. I connect REST APIs, persist data in SQLite, and automate repetitive work so other people can run the system without me. I use Claude Code to turn messy admin into a documented workflow. Seeking TBD Investors' paid, remote Software Engineering Intern role (about 20 hours a week) to ship internal tools, integrations, and practical AI across founder-led portfolio companies.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Software development (TypeScript, Node.js):} Ships typed backend features with discord.js, REST clients, structured errors, and local persistence. Secondary coursework skills in C++, C\#, and React.
+
+\item \textbf{APIs, databases, and integrations:} Cache-first REST clients, SQLite schemas (settings, caches, deduplication, quota counters), and a single sync path so daily use does not hammer a third-party system.
+
+\item \textbf{Workflow automation:} Poll loops, reminder windows, and subscribe/unsubscribe flows that turn a manual check into a reliable announcement. Exponential backoff when a pass fails.
+
+\item \textbf{AI-enabled solutions:} Uses Claude Code to evaluate messy problems, draft structured documents, and multiply output on implementation and debugging while keeping the architecture decisions.
+
+\item \textbf{Independent remote delivery:} Owns a project from requirement to documented code. README-level setup, environment-variable contracts, and usage strategy so someone else can run the tool.
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot (TypeScript, Node.js, SQLite)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}
+\begin{itemize}
+    \item Built an operating tool that pulls public match data and turns it into slash commands, announcements, and reminders a small group can use without checking the vendor site by hand (Counter-Strike 2 / GGScore API).
+    \item Designed a cache-first integration: API calls happen only on an explicit \texttt{/sync}. Slash commands, announcements, and the poll loop read SQLite so the 3-request/day free tier is not wasted.
+    \item Modeled the database around real operating needs: guild settings, seen-item deduplication, cached match/results/country datasets, and daily API usage counters (WAL mode, upserts).
+    \item Tested failure modes in the poll loop: exponential backoff when a pass fails, typed API errors, and a \texttt{/quota} command so an operator can see remaining calls and cache status.
+    \item Documented setup, environment variables, and a free-tier usage plan so another person can run the bot without burning the daily quota on boot.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Applied AI job-search workflow (Claude Code)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/ai-job-search}{github.com/giovanny-garcia/ai-job-search}
+\begin{itemize}
+    \item Forked and ran an open-source application framework on Claude Code to evaluate job postings, tailor a CV, and draft cover letters from a structured profile.
+    \item Treat Claude Code as an operations tool: summarize source documents, generate structured reports, and turn a messy admin process into a repeatable workflow.
+    \item Keep every generated claim tied to a source file so the output stays factual. That is judgment on administrative data, not production ML.
+\end{itemize}}}
+
+\end{itemize}
+
+\clearpage
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+Coursework foundation in programming and software-development fundamentals. LinkedIn-listed skills include C++, C\#, and React. Seeking a paid internship that combines building with real operating businesses.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite), C++, C\#.
+\item \textbf{Tools and platforms:} Node.js, discord.js, Git/GitHub, SQLite, REST APIs, Claude Code.
+\item \textbf{Practices:} quota-aware API clients, caching, structured errors, README-driven setup, iterating from real user constraints.
+\item \textbf{Gaps I would close on the job:} production web applications, cloud platforms, and data pipelines. I learn unfamiliar tools on a live problem, which is how the Discord bot and Claude Code workflow got built.
+\end{itemize}
+
+% ============================================================
+%     ADDITIONAL BACKGROUND
+% ============================================================
+
+\section{Additional Background}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{How I work:} I pick a user problem, constrain the design (quotas, permissions, reminders), then ship a vertical slice and document it. Ready to do that with portfolio-company operators, without waiting for a ticket queue.
+\item \textbf{Work setup:} Austin, Texas. US-based. Available about 20 hours a week for the remote internship, or a fuller summer stretch if that helps a portfolio company.
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English.
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - TBD Investors, Software Engineering Intern
+% Compile with: xelatex cover_tbd_investors_software_engineering_intern.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Giovanny Garcia}}{  \href{mailto:giovanny.garcia2@g.austincc.edu}{giovanny.garcia2@g.austincc.edu} | Austin, TX |  \urlstyle{same}\href{https://linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn} | \href{https://github.com/giovanny-garcia}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear TBD Investors hiring team,}
+
+\lettercontent{I applied today via Handshake for the Software Engineering Intern role. I am a computer science graduate from Austin Community College in Austin, Texas. I build small systems that other people can run without me: a TypeScript Discord bot that respects a 3-request/day API quota, and a Claude Code workflow that turns job-search admin into a repeatable process. That is the intern you described. Not observing. Shipping tools that create measurable value for growing businesses.}
+
+\lettercontent{TBD backs searchers and operators with your own capital and stays close after the close. Your site leads with Metro Vein Centers, acquired and scaled over nine years, and a portfolio of healthcare and essential-service operators such as Oaklin Lane, CoFi, Liine, and Sainvus. Those companies need internal tools, integrations, and automation more than they need a research intern. I want to sit with a messy operating process, turn it into software, and document it so a coordinator can run it.}
+
+\lettercontent{What I would bring in the first months:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{APIs and databases:} The Discord bot calls GGScore only on an explicit sync, then serves commands from SQLite. Same pattern as an internal tool that must not hammer a vendor or a clinic system.
+    \item \textbf{Workflow automation:} Per-guild subscriptions, reminder windows, and a poll loop with exponential backoff. I would bring that reliability habit to repetitive ops work.
+    \item \textbf{Practical AI:} I use Claude Code to multiply output on implementation, debugging, and structured documents. I still own the architecture and keep generated claims tied to source files.
+\end{itemize}\par}
+
+\lettercontent{I have not worked inside a portfolio company. I have not shipped a production web app. I do own a full loop from requirement to documented code, and I can work the posted 20 hours a week remotely from Austin. I would welcome a conversation about the first operating tool you want built.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Giovanny Garcia}
+\end{flushright}
+\end{document}
