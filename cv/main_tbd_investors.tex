@@ -6,24 +6,19 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+% Force first/last name and section headings to moderncv blue (color1).
+% These commands exist on newer moderncv (MiKTeX) and are absent on TeX Live
+% 2023's moderncv 2.3.1, so only redefine when they are defined.
+\makeatletter
+\@ifundefined{firstnamestyle}{}{%
+  \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+  \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+  \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+}
+\makeatother
 
 \usepackage[utf8]{inputenc}
 \usepackage{needspace}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=blue,
-    pdftitle={Giovanny Garcia - CV},
-    pdfpagemode=FullScreen,
-}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
@@ -88,7 +83,7 @@
     \item Designed a cache-first integration: API calls happen only on an explicit \texttt{/sync}. Slash commands, announcements, and the poll loop read SQLite so the 3-request/day free tier is not wasted.
     \item Modeled the database around real operating needs: guild settings, seen-item deduplication, cached match/results/country datasets, and daily API usage counters (WAL mode, upserts).
     \item Tested failure modes in the poll loop: exponential backoff when a pass fails, typed API errors, and a \texttt{/quota} command so an operator can see remaining calls and cache status.
-    \item Documented setup, environment variables, and a free-tier usage plan so another person can run the bot without burning the daily quota on boot.
+    \item Documented setup, environment variables, and a free-tier usage plan so another person can run the bot without burning the daily quota on boot. Secrets stay in \texttt{.env} (gitignored); the README says to regenerate a key if one is ever exposed.
 \end{itemize}}}
 
 \vspace{3pt}
@@ -130,7 +125,7 @@ Coursework foundation in programming and software-development fundamentals. Link
 \item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite), C++, C\#.
 \item \textbf{Tools and platforms:} Node.js, discord.js, Git/GitHub, SQLite, REST APIs, Claude Code.
 \item \textbf{Practices:} quota-aware API clients, caching, structured errors, README-driven setup, iterating from real user constraints.
-\item \textbf{Gaps I would close on the job:} production web applications, cloud platforms, and data pipelines. I learn unfamiliar tools on a live problem, which is how the Discord bot and Claude Code workflow got built.
+\item \textbf{Ready to learn on the job:} production web applications, cloud platforms, and data pipelines are not in my public repos. I pick those up on a live problem, which is how the Discord bot and Claude Code workflow got built.
 \end{itemize}
 
 % ============================================================
