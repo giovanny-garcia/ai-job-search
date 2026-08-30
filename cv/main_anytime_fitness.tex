@@ -1,0 +1,158 @@
+%% CV - Giovanny Garcia
+%% Tailored for Anytime Fitness, IT Help Desk Associate (remote, US)
+%% Compile with: lualatex main_anytime_fitness.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Giovanny Garcia - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+% personal data
+\name{Giovanny}{Garcia}
+\address{Austin, Texas, United States}{}{}
+\email{giovanny.garcia2@g.austincc.edu}
+\extrainfo{\href{https://www.linkedin.com/in/giovanny-garcia-07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computer Science graduate (Associate of Science, Austin Community College) who already does the unglamorous part of support: diagnose why a tool failed, restore access, and write the notes so the next person does not have to start over. Built a TypeScript Discord bot that other people can run, with permission-gated admin commands, credential setup, and a README that walks an operator through first boot. Seeking Anytime Fitness's remote IT Help Desk Associate role to take first-line tickets (password resets, software access, laptop setup) and learn Salesforce support on the job. I have not worked a help desk or Salesforce queue. I have shipped a live system and documented how to help someone use it.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Technical troubleshooting:} Diagnoses live failures in a Node.js service (failed announce passes, quota exhaustion, missing environment variables) and makes the failure visible instead of silent. Comfortable walking someone through a first-run checklist.
+
+\item \textbf{Access and accounts:} Sets up Discord application credentials, permission-gated commands (Manage Server for \texttt{/sync} and settings), and gitignored \texttt{.env} secrets. Documents how to regenerate an API key if it is exposed.
+
+\item \textbf{Ticket-quality documentation:} README covers setup, environment variables, free-tier call budget, and a recommended first sync so another person can operate the bot without guessing. Same habit a help desk ticket needs: what happened, what I tried, what fixed it.
+
+\item \textbf{Clear guidance for non-specialists:} Translates rate limits, permissions, and cache vs.\ live fetch into operator commands (\texttt{/quota}, \texttt{/settings}) instead of internal jargon. Writes so a teammate can follow the steps.
+
+\item \textbf{Software implementation (personal project):} Owned planning through deployment of a public TypeScript bot: scoped the problem, chose a cache-first design, shipped, and still maintain it. Not a corporate rollout. It is a complete loop I can explain.
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{CS2 Discord Bot (TypeScript, Node.js, SQLite)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/hltv-discord-bot}{github.com/giovanny-garcia/hltv-discord-bot}
+\begin{itemize}
+    \item First-line support for operators of my own system: \texttt{/ping} as a health check, \texttt{/quota} for daily API usage and cache status, and a README that answers ``how do I get this running?'' without a call.
+    \item Account and access setup: Discord bot token, application ID, GGScore API key, and permission gates so only Manage Server users can change settings or burn quota. Secrets stay in \texttt{.env} (gitignored).
+    \item Hardware-adjacent onboarding analog: a first-boot checklist (Node 18+, copy \texttt{.env.example}, invite with the right scopes, \texttt{/subscribe}, then one \texttt{/sync}) so a new machine can connect without wasting the daily budget.
+    \item Troubleshooting under constraints: poll loop posts from cache and uses exponential backoff (capped at one hour) when an announce pass fails, so a bad pass does not spin the bot. Typed API errors instead of a silent crash.
+    \item Ticket notes in public: setup, environment variables, free-tier call budget, and a recommended first sync written so another person can close the loop without me on the call.
+    \item Implementation from planning through deployment: TypeScript toolchain (\texttt{tsx}, \texttt{tsc} to \texttt{dist/}), SQLite persistence, REST client, and a live Discord install. I still own the code.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Applied AI job-search workflow (Claude Code)}{Personal project}{Austin, TX}{}{\vspace{1pt}
+\href{https://github.com/giovanny-garcia/ai-job-search}{github.com/giovanny-garcia/ai-job-search}
+\begin{itemize}
+    \item Forked and ran an open-source application framework on Claude Code to evaluate postings, tailor a CV, and draft cover letters from a structured profile.
+    \item Treat Claude Code as a tool with review, not a shortcut: keep generated claims tied to source files so the agent cannot invent jobs, GPA, or Salesforce experience.
+    \item Same documentation habit as support work: a repeatable process, written down, that another person can rerun.
+\end{itemize}}}
+
+\end{itemize}
+
+\clearpage
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Associate of Science in Computer Science}{Austin Community College}{Austin, TX}{}{\vspace{1pt}
+Completed associate degree matching the posting's certificate / associate / bootcamp bar. Coursework in programming fundamentals, object-oriented design, and data structures (C++ and C\#). JavaScript, TypeScript, and React are independent practice on top of that base. No Salesforce, Trailhead, or ticketing-system coursework.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, JavaScript, SQL (SQLite). Coursework: C++, C\#.
+\item \textbf{Tools:} Node.js, discord.js, Git/GitHub, REST APIs, Claude Code. Comfortable with chat-app admin (Discord) and email as a user, not as an enterprise admin.
+\item \textbf{Support-adjacent practices:} Permission-gated admin commands, credential setup, first-boot checklists, README-level how-to notes, structured error handling, cache-first design so routine use does not break when a quota is gone.
+\item \textbf{Gaps (honest):} No help desk or IT support job. No Salesforce navigation, MFA resets, or Trailhead badges. No Agile team. No corporate ticketing (Zendesk/Jira), no laptop imaging, no Microsoft 365 / Okta admin.
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English.
+\end{itemize}
+
+% ============================================================
+%     ADDITIONAL BACKGROUND
+% ============================================================
+
+\section{Additional Background}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Work setup:} Austin, Texas. US-based. Applying for the full-time remote role as posted (not a 20-hour internship).
+\item \textbf{Salesforce:} I know what it is (CRM used by support and sales teams). I have not completed Trailhead. I would start the Admin beginner trail before day one if this process continues.
+\item \textbf{How I work:} I pick a user problem, constrain the design, ship a vertical slice, then write the steps so someone else can run it. That is the habit I would bring to first-line tickets under senior guidance.
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Available upon request.
+\end{itemize}
+
+\end{document}
