@@ -1,10 +1,11 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Giovanny Garcia
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- Profile seeded from public sources (LinkedIn/GitHub) for intern applications
+     including Oaklin Lane and TBD Investors.
+     Re-run /setup with documents/ to deepen: phone, GPA, work history, coursework. -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Giovanny Garcia, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +17,71 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Giovanny Garcia
+- **Location:** Austin, Texas, United States (remote US roles are in range)
+- **Languages:** English (working proficiency confirmed; other languages not verified)
+- **Status:** Computer Science background via Austin Community College; seeking internships and early-career roles. ACC student email still in use. Associate of Science dated 2022–2025 on LinkedIn, so current-enrollment status is unverified.
+- **LinkedIn headline:** "Computer Science Major at Austin Community College. Passionate about coding, problem-solving & building solutions. Skilled in C++, C#, Game Dev & React Dev. Seeking opportunities."
+- **Email:** giovanny.garcia2@g.austincc.edu
+- **LinkedIn:** https://linkedin.com/in/giovanny-garcia-07ab24322
+- **GitHub:** https://github.com/giovanny-garcia
+- **Phone:** not in public sources; omit rather than invent
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Associate of Science in Computer Science** (2022–2025) - Austin Community College (Austin, Texas)
+  - LinkedIn lists this as an AS in Computer Science
+  - Topics (self-reported skills, not a transcript): C++, C#, game development, React
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+No paid employment history is documented in public sources. Do not invent jobs, internships, GPA, or coursework titles.
+
+### Independent Projects
+- **CS2 Discord Bot** (2026) - personal project, TypeScript / Node.js
+  - Discord bot that announces upcoming Counter-Strike 2 matches using the GGScore public API
+  - Cache-first design: API calls only on `/sync` so the 3-request/day free tier is not burned by slash commands or the announcement poll loop
+  - SQLite persistence for guild settings, seen-item deduplication, API quota tracking, and cached datasets
+  - Slash commands for matches, results, events, countries, quota, subscribe/unsubscribe, settings
+  - Poll loop with exponential backoff on failure; announcements and reminders read from cache
+  - Source: https://github.com/giovanny-garcia/hltv-discord-bot
+- **Applied AI job-search workflow** (2026) - personal use of Claude Code
+  - Forked and runs the open-source `ai-job-search` framework to evaluate postings, tailor a CV, and draft cover letters
+  - Explicit Claude Code usage (required naming when AI tooling is mentioned)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** TypeScript, JavaScript, Node.js, Discord API (discord.js), REST APIs, SQLite, Claude Code / large language models
+- **Secondary:** C++, C#, React, game development (LinkedIn self-reported; no public repos found for these)
+- **Domain:** Practical automation under API constraints; caching; bot/workflow tooling; early applied AI (not ML research)
+- **Software:** Git/GitHub, Node.js toolchain (tsx, TypeScript), SQLite, Claude Code
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None documented.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None documented.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None documented.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+Self-assessment from public work (no PI/DISC on file):
+- **Builder / independent:** ships personal tools (Discord bot, Claude Code workflow) without a team around them
+- **Constraint-aware:** designed around a 3-request/day API quota instead of ignoring limits
+- **Strengths:** practical problem solving, willingness to try unfamiliar tools, written documentation (bot README)
+- **Growth areas:** no documented professional collaboration, healthcare operations, or vendor-evaluation experience
+- **Thrives in:** ambiguous, ownership-heavy work where the task is "make this process faster" rather than theoretical research
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Applying AI and automation to real operations, not research papers
+- Building tools other people can actually use (slash commands, docs, cached workflows)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Applied AI / automation internships in growing companies
+- Software engineering internships that ship internal tools, APIs, and practical AI
+- Software and operations roles where APIs, scripting, and LLM tools matter
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Fabricating experience or skills
+- Roles that require current enrollment if enrollment cannot be confirmed (flag, do not hide)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
