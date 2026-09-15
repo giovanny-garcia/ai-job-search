@@ -48,6 +48,8 @@ Your LinkedIn profile exported as a PDF.
 
 **How to export:** On LinkedIn, go to your profile → More → Save to PDF. This exports a structured summary of your profile.
 
+**Starter pack (tracked in repo):** See `templates/linkedin/` for a ready-to-paste headline, About section, project bullets, skills list, and improvement checklist tailored for Giovanny Garcia. Copy updates into LinkedIn, then export a PDF here so `/setup` can sync your profile.
+
 **Supported formats:** `.pdf`
 
 **What `/setup` extracts:**

@@ -12,9 +12,12 @@ templates/
 │       ├── TEMPLATE.md      # Manifest: engine, fonts, page limit, style rules, pitfalls
 │       ├── *.cls / *.sty    # Custom class/style files (if the template needs them)
 │       └── fonts/           # Bundled font files (if not using system fonts)
-└── cover_letters/
-    └── <template-name>/
-        └── (same layout)
+├── cover_letters/
+│   └── <template-name>/
+│       └── (same layout)
+└── linkedin/                # LinkedIn profile improvement pack (copy-paste ready)
+    ├── LINKEDIN_IMPROVEMENT.md
+    └── READY_TO_PASTE.txt
 ```
 
 ## How it works

@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Giovanny Garcia
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Giovanny Garcia, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,30 +16,28 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Giovanny Garcia
+- **Location:** Austin / Texas area ([confirm commute / remote preferences])
 - **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Computer Science student at Austin Community College; seeking SWE internships / junior roles
+- **LinkedIn headline:** "CS Student at ACC | TypeScript, Node.js, React | Building Discord bots & web apps | Open to internships"
+- **LinkedIn:** https://www.linkedin.com/in/giovanny-garcia-482376243/
+- **GitHub:** https://github.com/giovanny-garcia
+- **Email:** giovanny.garcia2@g.austincc.edu
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Computer Science** ([YEARS]) - Austin Community College
+ - Topics: Programming, data structures, OOP, web development (confirm exact program and coursework)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+<!-- Add formal roles when available. Portfolio projects documented under Independent Projects in 01-candidate-profile.md -->
+- **Personal projects:** CS2 Discord bot (TypeScript, Node.js, discord.js, SQLite, GGScore API caching)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** TypeScript, JavaScript, Node.js, Git/GitHub, SQLite, REST APIs, discord.js
+- **Secondary:** React, C++, C# (confirm depth from coursework/projects)
+- **Domain:** Discord bots, API quota/caching patterns, early-career software engineering
+- **Software:** Node.js, npm, TypeScript tooling (tsc/tsx), Discord Developer Portal, Claude Code
 
 ### Certifications
 <!-- List relevant certifications with dates -->
