@@ -1,0 +1,58 @@
+LINKEDIN - READY TO PASTE
+Giovanny Garcia | https://www.linkedin.com/in/giovanny-garcia-482376243/
+============================================================
+
+HEADLINE (recommended)
+------------------------------------------------------------
+CS Student at ACC | TypeScript, Node.js, React | Building Discord bots & web apps | Open to internships
+
+
+ABOUT
+------------------------------------------------------------
+Computer Science student at Austin Community College building real projects with TypeScript, Node.js, and web technologies.
+
+I recently shipped a CS2 Discord bot that pulls match data from a public API, caches it in SQLite to stay within rate limits, and announces upcoming matches with slash commands. I care about practical engineering: caching, quota awareness, and clean command UX, not just tutorials.
+
+I am looking for software engineering internships or junior roles where I can contribute to product features, APIs, or tooling. Based in the Austin / Texas area and open to remote.
+
+Tech I use: TypeScript, Node.js, discord.js, SQLite, Git/GitHub. Growing skills in React, C++, and C#.
+
+Open to connecting with recruiters, ACC alumni, and engineers hiring interns.
+
+
+PROJECT EXPERIENCE - CS2 Discord Bot
+Company/org: Personal Projects (or "Independent")
+Title: Software Developer - CS2 Discord Bot
+------------------------------------------------------------
+- Built a TypeScript/Node.js Discord bot that announces upcoming Counter-Strike 2 matches using the GGScore API and discord.js
+- Designed a cache-first architecture with SQLite so announcements and slash commands stay within a 3-request/day free API tier
+- Implemented guild settings, match deduplication, quota tracking, and slash commands (/sync, /matches, /results, /events, /subscribe)
+- Documented setup, environment variables, and free-tier usage so others can run the bot locally
+
+
+FEATURED LINKS
+------------------------------------------------------------
+1. https://github.com/giovanny-garcia/hltv-discord-bot
+   Caption: TypeScript Discord bot - GGScore API + SQLite cache + slash commands for CS2 match alerts
+
+2. https://github.com/giovanny-garcia/ai-job-search
+   Caption: Personal AI job-search workspace (Claude Code) for evaluating roles and tailoring applications
+
+
+SKILLS TO ADD
+------------------------------------------------------------
+TypeScript, JavaScript, Node.js, Git, GitHub, SQLite, REST APIs, Discord.js, Problem Solving
+(+ if true) React, C++, C#, HTML, CSS, Object-Oriented Programming, Data Structures, Linux
+
+
+CONNECTION NOTE TEMPLATE
+------------------------------------------------------------
+Hi [Name] - I'm a CS student at ACC building TypeScript projects (including a Discord bot with API caching). I'd love to connect as I look toward software internships in Austin.
+
+
+OPEN TO WORK TITLES
+------------------------------------------------------------
+Software Engineering Intern
+Junior Software Developer
+Backend Developer Intern
+Locations: Austin, TX + Remote
