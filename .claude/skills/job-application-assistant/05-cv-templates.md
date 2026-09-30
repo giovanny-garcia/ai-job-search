@@ -1,14 +1,31 @@
 # CV Templates and Tailoring Guide
 
-<!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
+## Preferred source of truth: simple Markdown
+
+**Master resume:** `cv/resume.md` (tracked). A local copy may also live in `documents/cv/` (gitignored personal folder).
+
+Edit the markdown file first. Keep it one page, plain headings, no icons or columns. Export to PDF/DOCX from the markdown when a simple application upload is enough.
+
+Use LaTeX moderncv only when a tailored two-page banking-style PDF is needed for a specific employer.
+
+### Profile statement templates (Giovanny Garcia)
+
+**SWE internship / general:**
+> Computer Science student who ships software: Godot games, React websites, Discord bots, and multiplayer server administration. Background in hardware/software repair and mentoring technicians. Seeking a software engineering internship.
+
+**Infrastructure / networking leaning:**
+> CS student with hands-on Linux/Windows server administration, networking, and hardware diagnostics, plus shipped personal software (React, C++, Godot). Seeking a software engineering internship on systems-facing teams.
+
+**Web / product leaning:**
+> CS student who builds client-facing web apps in React and ships complete game projects end to end. Seeking a software engineering internship focused on product software.
 
 ## Template: LaTeX moderncv (Banking Style)
 
-All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
+LaTeX CVs use the moderncv package with the "banking" style and "blue" color scheme.
 
 **Output file:** `cv/main_<company>.tex`
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
-**Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
+**Master reference:** `documents/cv/resume.md` (content) and `cv/main_example.tex` (LaTeX layout)
 
 ### Compile command
 

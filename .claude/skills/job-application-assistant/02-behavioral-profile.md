@@ -1,50 +1,48 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
-
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Giovanny Garcia's working pattern (inferred from repair/shift-lead and shipping personal projects; not a formal PI/DISC assessment): **hands-on builder and mentor** who learns by doing, owns end-to-end fixes, and ships complete side projects.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Practical problem-solving | High | Years of diagnosing hardware/software failures under customer pressure |
+| Ownership / finish work | High | Published games, client websites, running servers, Discord bots |
+| Mentoring | Medium-High | Trained technicians and led shifts at Micro Center |
+| Formal process / research | Medium | Search quality rating requires consistent guideline application |
+| Ambiguity tolerance | Medium | Strong when the problem is concrete; confirm preference for structured mentorship in internships |
+
+*[Inferred from resume experience - review before relying on this]*
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Fix and ship:** Prefers tangible outcomes (working PCs, live games, live sites) over abstract planning alone
+- **Customer-facing calm:** Repair and shift-lead roles require clear communication under time pressure
+- **Self-directed learning:** Built Godot games, React sites, bots, and server stacks outside formal employment
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Clear problems with a path to a working demo or fix
+- Mentorship available but room to own a project end-to-end
+- Teams that value practical debugging and shipping over status theater
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Internet-scale / production systems:** Frame as eagerness to learn Go/Rust/TS/Python and Cloudflare's stack on a real team
+- **Formal SWE process:** Frame repair + published projects as discipline with version control, iteration, and user feedback; ready to adopt code review and on-call culture
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- Curious, proactive, get things done, ship projects, mentor, hands-on, troubleshooting, ownership
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- Heavy research-only roles with no shipping; pure maintenance with no development; fully remote-only if seeking onsite team immersion (confirm preference)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Prefers managers who give autonomy with checkpoints and concrete feedback
+- Works well when expectations and success criteria for a 12-week project are explicit
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with shipped projects (games, web, bots, servers) and repair mentoring; connect to "ship and deliver with autonomy"
+- **CV:** Keep the simple markdown layout; emphasize projects for SWE internships
+- **Interviews:** STAR from Micro Center mentoring, a published game, a client site, a server outage fix
+- **Don't overstate:** Do not claim production Go/Rust/edge networking experience you do not have

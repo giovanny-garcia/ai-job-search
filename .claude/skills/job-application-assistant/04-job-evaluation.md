@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** JavaScript, C++, Git, React, shipping complete software projects, Linux/Windows, networking basics, troubleshooting
+**Moderate match areas:** C#, server administration, Discord/API automation, web front-end, mentoring/training
+**Weak match areas:** Go, Rust, TypeScript, Python, Cloudflare Workers / edge platform, large-scale distributed systems production experience
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Personal/freelance software projects that shipped; hands-on systems troubleshooting
+**Moderate:** IT repair and shift leadership; search quality rating (analytical rigor)
+**Entry-level:** Formal software engineering internships; production cloud/edge engineering
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +45,11 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Dallas metro onsite or hybrid: PASS
+- Remote US: PASS (if role allows)
+- Austin onsite 3–5 days/week: FLAG — only PASS if Giovanny confirms housing/commute plan
+- Requires relocation without plan: FAIL (discuss)
+- Frequent international travel: FLAG
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +62,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a software engineering internship, then entry-level SWE
+- Build production software skills beyond game/web side projects
+- Grow toward systems / product engineering with strong mentorship
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Building and shipping features, debugging real systems, learning new stacks, mentoring
+- Tasks that drain: Pure ticket farms with no ownership; roles with no path into SWE
+- Non-task factors: Mentorship quality, clear project scope, honest skill growth
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security:** Student; may need paid internship; CPT/work auth status TBD
+- **Flexibility:** Full-time internship terms must not conflict with required classes
+- **Professional development:** Prioritize mentorship and shipping real code
 
 ### 6. Salary Benchmark (Optional)
 

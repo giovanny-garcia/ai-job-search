@@ -1,18 +1,11 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Master LaTeX CV - Giovanny Garcia
+%% Prefer editing cv/resume.md first (simple markdown source of truth).
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,146 +17,78 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
-    pdfpagemode=FullScreen,
+    pdftitle={Giovanny Garcia - CV},
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Giovanny}{Garcia}
+\address{Dallas, TX}{}{}
+\phone[mobile]{+1 469 243 8873}
+\email{giovannycse@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/giovanny-garcia07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}, \href{https://cry0smith.itch.io}{Portfolio}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{Computer Science student who ships software: Godot games, React websites, Discord bots, and multiplayer server administration. Background in hardware/software repair and mentoring technicians. Seeking a software engineering internship or entry-level role.}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Languages}: C\#, C++, JavaScript, HTML, CSS, GDScript
+\item \textbf{Tools}: Godot, React, Git, GitHub, Discord API
+\item \textbf{Systems}: Windows, Linux, networking, server administration, hardware diagnostics
 \end{itemize}
 
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
+\section{Projects}
+\vspace{3pt}
+\begin{itemize}
+\item{\cventry{}{Indie Games}{Godot / GDScript}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built and published multiple games (gameplay, UI, polish) on itch.io (\href{https://cry0smith.itch.io}{cry0smith.itch.io})
+\end{itemize}}}
+\item{\cventry{}{Multiplayer Server Administration}{}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Managed plugins, config, backups, monitoring, networking, permissions, and uptime
+\end{itemize}}}
+\item{\cventry{}{Freelance Web Development}{React / JavaScript}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built responsive client sites; example \href{https://petalgear.com}{petalgear.com}
+\end{itemize}}}
+\item{\cventry{}{Discord Automation Bots}{Discord API}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built moderation and workflow automation bots for community management
+\end{itemize}}}
+\end{itemize}
 
 \section{Professional Experience}
 \vspace{3pt}
 \begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2024--Present}{Search Quality Rater}{Welocalize}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Evaluated search results for relevance and quality across diverse topics
+    \item Applied research against guidelines to keep evaluation standards consistent
 \end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2022--2024}{Repair Technician / Shift Lead}{Micro Center}{Dallas, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Diagnosed and repaired hardware and software issues for customers
+    \item Trained new technicians and led shifts for service and store workflow
 \end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2018--2022}{Repair Technician}{Garland Computers}{Garland, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Built, repaired, and tested PCs, laptops, and servers
+    \item Hardware diagnostics, part replacement, and system optimization
 \end{itemize}}}
-
 \end{itemize}
-
-% ============================================================
-%     EDUCATION
-% ============================================================
 
 \section{Education}
-\vspace{1pt}
-\begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
 \vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
-\end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
-
-\section{Languages}
-\vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item{\cventry{Expected May 2027}{Associate of Science, Computer Science}{Austin Community College}{Austin, TX}{}{}}
+\item{\cventry{In progress}{Bachelor of Science, Computer Science}{Austin Community College}{Austin, TX}{}{}}
 \end{itemize}
 
 \end{document}
