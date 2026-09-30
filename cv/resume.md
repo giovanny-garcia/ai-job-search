@@ -1,7 +1,7 @@
 # Giovanny Garcia
 
 Dallas, TX · +1 (469) 243-8873 · giovannycse@gmail.com  
-[LinkedIn](https://linkedin.com/in/giovanny-garcia07ab24322) · [GitHub](https://github.com/giovanny-garcia) · [Portfolio](https://cry0smith.itch.io)
+[giovannygarcia.com](https://giovannygarcia.com) · [LinkedIn](https://linkedin.com/in/giovanny-garcia07ab24322) · [GitHub](https://github.com/giovanny-garcia) · [Portfolio](https://cry0smith.itch.io)
 
 ## Summary
 
