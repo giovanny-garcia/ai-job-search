@@ -1,53 +1,62 @@
 # Giovanny Garcia
 
-Dallas, TX · (469) 243-8873 · giovannycse@gmail.com  
-[GitHub](https://github.com/giovanny-garcia) · [LinkedIn](https://linkedin.com/in/giovanny-garcia07ab24322) · [Portfolio](https://cry0smith.itch.io)
+Dallas, TX · +1 (469) 243-8873 · giovannycse@gmail.com  
+[LinkedIn](https://linkedin.com/in/giovanny-garcia07ab24322) · [GitHub](https://github.com/giovanny-garcia) · [Portfolio](https://cry0smith.itch.io)
 
 ## Summary
 
-Computer Science student with hands-on experience shipping software: indie games in Godot, React websites for clients, Discord automation bots, and multiplayer server administration. Background in hardware/software repair and mentoring technicians. Looking for a software engineering internship or entry-level role.
+Computer Science student (AS expected December 2026) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Combines customer-facing technical problem solving with mentoring experience as a Micro Center shift lead. Eager to contribute on a mentored team shipping real product features.
 
-## Skills
+## Core Competencies
 
-- **Languages:** C#, C++, JavaScript, HTML, CSS, GDScript
-- **Tools:** Godot, React, Git, GitHub, Discord API
-- **Systems:** Windows, Linux, networking, server administration, hardware diagnostics
+- **Web & Full-Stack Foundations:** JavaScript, React, HTML, CSS; freelance client delivery and ongoing maintenance ([petalgear.com](https://petalgear.com))
+- **Shipping Software:** End-to-end ownership of personal and client projects from build through release, iteration, and support
+- **APIs & Automation:** Discord API bots for moderation and workflow automation; practical integration and debugging
+- **Collaboration & Mentoring:** Trained technicians and led shifts at Micro Center; clear communication in English and Spanish
+- **Systems Fluency:** Git/GitHub, Windows/Linux, networking basics, AWS and MongoDB exposure; comfortable diagnosing production-facing issues
 
-## Projects
+## Selected Projects
 
-### Indie Games (Godot)
-Built and published multiple games with Godot and GDScript (gameplay systems, UI, polish). Live on [cry0smith.itch.io](https://cry0smith.itch.io).
+### Freelance Web Development (React)
+Built responsive client sites with JavaScript, React, HTML, and CSS. Delivered updates, maintenance, and technical support after launch ([petalgear.com](https://petalgear.com)).
+
+### Discord Automation Bots
+Developed moderation and workflow bots using the Discord API to reduce manual community admin work and improve operator workflows.
+
+### Published Indie Games (Godot)
+Implemented gameplay systems, UI/UX, and polish; published completed projects and iterated from real user feedback ([cry0smith.itch.io](https://cry0smith.itch.io)).
 
 ### Multiplayer Server Administration
-Ran multiplayer game servers: plugins, config, backups, monitoring, networking, permissions, and uptime troubleshooting.
-
-### Freelance Web Development
-Built responsive sites with React, JavaScript, HTML, and CSS. Client updates and ongoing support. Example: [petalgear.com](https://petalgear.com).
-
-### Discord Bots
-Built moderation and workflow bots with the Discord API for community automation.
+Configured plugins, networking, permissions, backups, monitoring, and security to keep game servers reliable.
 
 ## Experience
 
 ### Search Quality Rater — Welocalize (Remote)
 **2024 – Present**
-- Rate search results for relevance and quality across many topics
-- Research and apply evaluation guidelines consistently
+- Evaluated search results for relevance, accuracy, and quality across diverse topics under defined guidelines
+- Practiced careful research, consistent judgment, and written documentation in a fully remote setting
 
 ### Repair Technician / Shift Lead — Micro Center (Dallas, TX)
 **2022 – 2024**
-- Diagnosed and repaired hardware and software issues for customers
-- Trained new technicians and led shifts for service and store workflow
+- Diagnosed and resolved complex hardware and software issues for customers under time pressure
+- Mentored new technicians on diagnostic process while keeping shift throughput and service quality high
+- Coordinated day-to-day shift operations and customer communication
 
 ### Repair Technician — Garland Computers (Garland, TX)
 **2018 – 2022**
-- Built, repaired, and tested PCs, laptops, and servers
-- Hardware diagnostics, part replacement, and system optimization for consumers and businesses
+- Built, repaired, and tested custom PCs, laptops, and servers for individual and business clients
+- Performed diagnostics, component replacement, and system optimization with attention to reliability
 
 ## Education
 
-**Associate of Science, Computer Science** — Austin Community College  
-Expected May 2027
+**Associate of Science in Computer Science** — Austin Community College (Austin, TX)  
+Expected December 2026  
+In progress. Coursework focused on software development and programming fundamentals.
 
-**Bachelor of Science, Computer Science** — Austin Community College  
-In progress
+## Languages
+
+English (fluent), Spanish (fluent)
+
+## References
+
+Available upon request

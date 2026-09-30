@@ -14,24 +14,24 @@ Secondary (company career pages via Google):
 
 Queries are grouped by priority. Each query should be combined with your location terms where the site supports it.
 
-### Priority 1: Software Engineering Internships
+### Priority 1: Junior / Entry-level Software Engineer
 
 These match your strongest and most desired career direction.
+
+```
+site:linkedin.com/jobs "Junior Software Engineer" Dallas OR Austin OR Texas
+site:linkedin.com/jobs "Associate Software Engineer" Texas React OR JavaScript
+site:indeed.com "entry level software engineer" Texas JavaScript OR React
+```
+
+### Priority 2: Software Engineering Internships
+
+Strong bridge roles while finishing AS (Dec 2026) and into 2027.
 
 ```
 site:linkedin.com/jobs "Software Engineer Intern" Dallas OR Austin OR Texas OR Remote
 site:linkedin.com/jobs "Software Engineering Intern" "Computer Science"
 site:indeed.com "software engineer intern" Texas
-```
-
-### Priority 2: Entry-level / Junior Software Engineer
-
-These match the next step after internship experience.
-
-```
-site:linkedin.com/jobs "Junior Software Engineer" Dallas OR Austin OR Texas
-site:linkedin.com/jobs "Associate Software Engineer" Texas
-site:indeed.com "entry level software engineer" Texas JavaScript OR C++ OR React
 ```
 
 ### Priority 3: Web / tooling adjacent

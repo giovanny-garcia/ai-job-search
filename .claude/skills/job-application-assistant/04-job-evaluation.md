@@ -14,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** JavaScript, C++, Git, React, shipping complete software projects, Linux/Windows, networking basics, troubleshooting
-**Moderate match areas:** C#, server administration, Discord/API automation, web front-end, mentoring/training
-**Weak match areas:** Go, Rust, TypeScript, Python, Cloudflare Workers / edge platform, large-scale distributed systems production experience
+**Strong match areas:** JavaScript, React, HTML/CSS, Git, shipping complete software projects, Discord/API automation, troubleshooting, mentoring
+**Moderate match areas:** Linux/Windows, networking basics, server administration, AWS exposure, MongoDB exposure, Godot/GDScript
+**Weak match areas:** Go, Rust, TypeScript, Python, deep AWS/MongoDB production ownership, Cloudflare Workers / edge platform, large-scale distributed systems
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -62,9 +62,9 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- Land a software engineering internship, then entry-level SWE
-- Build production software skills beyond game/web side projects
-- Grow toward systems / product engineering with strong mentorship
+- Land a Junior Software Engineer role (SWE internship as a strong bridge)
+- Build production software skills beyond freelance/personal projects
+- Grow on a mentored team shipping real product features
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
 - Tasks that energize: Building and shipping features, debugging real systems, learning new stacks, mentoring
@@ -72,9 +72,9 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: Mentorship quality, clear project scope, honest skill growth
 
 **Life situation alignment:** Consider personal constraints:
-- **Security:** Student; may need paid internship; CPT/work auth status TBD
-- **Flexibility:** Full-time internship terms must not conflict with required classes
-- **Professional development:** Prioritize mentorship and shipping real code
+- **Security:** Student graduating AS Dec 2026; paid roles preferred; work auth status TBD
+- **Flexibility:** Full-time roles/internships must not conflict with required classes before graduation
+- **Professional development:** Prioritize mentorship and shipping real product code
 
 ### 6. Salary Benchmark (Optional)
 

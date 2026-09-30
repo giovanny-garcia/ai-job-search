@@ -10,14 +10,14 @@ Use LaTeX moderncv only when a tailored two-page banking-style PDF is needed for
 
 ### Profile statement templates (Giovanny Garcia)
 
-**SWE internship / general:**
-> Computer Science student who ships software: Godot games, React websites, Discord bots, and multiplayer server administration. Background in hardware/software repair and mentoring technicians. Seeking a software engineering internship.
+**Junior SWE / general:**
+> Computer Science student (AS expected December 2026) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Micro Center shift-lead mentoring plus customer-facing troubleshooting.
 
-**Infrastructure / networking leaning:**
-> CS student with hands-on Linux/Windows server administration, networking, and hardware diagnostics, plus shipped personal software (React, C++, Godot). Seeking a software engineering internship on systems-facing teams.
+**SWE internship leaning:**
+> CS student who ships React apps, Discord API automation, and published Godot games. Seeking a software engineering internship on a mentored team shipping real product features.
 
 **Web / product leaning:**
-> CS student who builds client-facing web apps in React and ships complete game projects end to end. Seeking a software engineering internship focused on product software.
+> CS student who builds client-facing React sites and ships complete projects end to end. Seeking a Junior Software Engineer role focused on product software.
 
 ## Template: LaTeX moderncv (Banking Style)
 

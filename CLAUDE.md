@@ -12,28 +12,28 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Giovanny Garcia
-- **Location:** Dallas, TX, USA (studying at Austin Community College; Austin onsite only if commute/relocation works)
-- **Languages:** English
-- **Status:** CS student; Search Quality Rater at Welocalize (2024–Present)
-- **LinkedIn headline:** Computer Science student | Software projects (Godot, React) | IT repair background
+- **Location:** Dallas, TX, USA (ACC student; Austin onsite only if commute/relocation works)
+- **Languages:** English (fluent), Spanish (fluent)
+- **Status:** CS student (AS expected Dec 2026); Search Quality Rater at Welocalize (2024–Present)
+- **LinkedIn headline:** CS student | React & API projects | Junior Software Engineer
 
 ### Education
-- **AS in Computer Science** (Expected May 2027) - Austin Community College
-- **BS in Computer Science** (In progress) - Austin Community College
+- **AS in Computer Science** (Expected Dec 2026) - Austin Community College
+  - Coursework: software development and programming fundamentals
 
 ### Professional Experience
 - **Search Quality Rater** (2024 – Present) - **Welocalize** (Remote)
-  - Evaluate search result quality and relevance against guidelines
+  - Search quality evaluation, research, remote documentation
 - **Repair Technician / Shift Lead** (2022 – 2024) - **Micro Center** (Dallas, TX)
-  - Hardware/software repair; train technicians; lead shifts
+  - Hardware/software repair; mentor technicians; lead shifts
 - **Repair Technician** (2018 – 2022) - **Garland Computers** (Garland, TX)
   - Build/repair PCs, laptops, servers; diagnostics and optimization
 
 ### Technical Skills
-- **Primary:** C#, C++, JavaScript, HTML, CSS, GDScript, React, Godot, Git
-- **Secondary:** Discord API, Linux/Windows admin, networking, server administration
-- **Domain:** Game development, freelance web, IT support
-- **Software:** Godot, React, GitHub, Discord API
+- **Primary:** JavaScript, React, HTML, CSS, Git/GitHub, Discord API
+- **Secondary:** Godot/GDScript, Windows/Linux, networking, server admin, AWS exposure, MongoDB exposure
+- **Domain:** Client web delivery, automation bots, game shipping, IT support/mentoring
+- **Software:** React, GitHub, Godot, Discord API
 
 ### Certifications
 - None listed yet
@@ -45,25 +45,25 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - None listed yet
 
 ### Behavioral Profile
-- **Hands-on builder** - Ships complete projects (games, sites, bots, servers)
+- **Hands-on builder** - Ships complete projects (web, bots, games, servers)
 - **Mentor / shift lead** - Trains others and owns customer-facing fixes
-- **Strengths:** Troubleshooting, finishing projects, practical learning
-- **Growth areas:** Internet-scale production stacks (Go/Rust/TS/Python), formal SWE internship experience
-- **Thrives in:** Mentored ownership of a concrete project with clear ship criteria
+- **Strengths:** Troubleshooting, finishing projects, bilingual communication
+- **Growth areas:** Deeper cloud/backend production experience beyond exposure-level AWS/MongoDB
+- **Thrives in:** Mentored teams shipping real product features
 
 ### What Excites You
 - Shipping software people actually use
-- Learning systems that run at internet scale (networking, performance, reliability)
+- Contributing on a mentored team to real product features
 
 ### Target Sectors
-- Software engineering internships / entry-level SWE
-- Web / tooling / infrastructure-adjacent product teams
-- Companies with strong mentorship for early-career engineers (e.g. Cloudflare, local Austin/Dallas tech)
+- Junior Software Engineer / entry-level SWE
+- SWE internships as a bridge into full-time
+- Web / product / tooling teams with strong mentorship
 
 ### Deal-breakers
-- Roles that require skills you cannot truthfully claim (fabricated stack experience)
-- Full-time internship terms that conflict with required classes (confirm per term)
+- Roles that require skills you cannot truthfully claim
 - Austin onsite 3–5 days/week without a workable housing/commute plan from Dallas
+- Full-time terms that conflict with required classes before Dec 2026 graduation
 
 ## Repo Structure
 - `cv/resume.md` - **Master resume (simple markdown). Edit this first.** (copy also kept under `documents/cv/` locally)
@@ -75,7 +75,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: update/tailor from `documents/cv/resume.md`, create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`) when needed
+3. If good fit: update/tailor from `cv/resume.md`, create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`) when needed
 4. **Verify both documents** (see Verification Checklist below)
 5. Prepare interview talking points based on the role requirements and your strengths
 
@@ -97,7 +97,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Nice-to-have requirements are highlighted where there is a match
 
 ### Consistency
-- [ ] CV follows the chosen format (simple markdown master, or 2-page moderncv/banking when LaTeX is used)
+- [ ] CV follows the chosen format (simple markdown master, or moderncv/banking when LaTeX is used)
 - [ ] Cover letter uses cover.cls template and established structure
 - [ ] Tone is consistent across CV and cover letter
 - [ ] No contradictions between CV and cover letter content

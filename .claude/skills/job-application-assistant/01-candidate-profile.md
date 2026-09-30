@@ -3,67 +3,68 @@
 ## Identity
 - **Name:** Giovanny Garcia
 - **Location:** Dallas, TX, USA
-- **Phone:** (469) 243-8873
+- **Phone:** +1 (469) 243-8873
 - **Email:** giovannycse@gmail.com
 - **LinkedIn:** https://linkedin.com/in/giovanny-garcia07ab24322
 - **GitHub:** https://github.com/giovanny-garcia
 - **Portfolio:** https://cry0smith.itch.io
-- **Languages:** English (primary); [confirm others if any]
-- **Status:** Computer Science student; Search Quality Rater at Welocalize (remote, part-time/flexible context TBD)
-- **Constraints:** Based in Dallas, TX. Studying at Austin Community College. Open to Austin onsite roles only if relocation/commute is feasible (confirm). Seeking internship or entry-level software engineering roles.
+- **Languages:** English (fluent), Spanish (fluent)
+- **Status:** Computer Science student (AS expected Dec 2026); Search Quality Rater at Welocalize (remote)
+- **Constraints:** Based in Dallas, TX. Studying at Austin Community College. Austin onsite only if relocation/commute is feasible. Seeking Junior Software Engineer roles (and strong SWE internships as a bridge).
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| AS, Computer Science | Expected May 2027 | Austin Community College | Computer Science coursework |
-| BS, Computer Science | In progress | Austin Community College | Computer Science |
-
-> **Needs confirmation:** An earlier draft said Associate graduation in December 2026. Current source of truth uses May 2027. Confirm which is correct, and whether BS is concurrent, transfer-planned, or the same ACC pathway.
+| AS, Computer Science | Expected Dec 2026 | Austin Community College | Software development, programming fundamentals |
 
 ## Professional Experience
 
 ### Search Quality Rater - Welocalize (2024 – Present)
 Remote
-- Evaluated search engine results for relevance, accuracy, and quality across diverse topics
-- Applied research and analysis against evaluation guidelines to maintain consistent standards
+- Evaluated search results for relevance, accuracy, and quality across diverse topics under defined guidelines
+- Practiced careful research, consistent judgment, and written documentation in a fully remote setting
 
 ### Repair Technician / Shift Lead - Micro Center (2022 – 2024)
 Dallas, TX
-- Diagnosed and repaired complex hardware and software issues for customers
-- Trained and mentored new technicians while supporting daily store operations
-- Led shift teams for customer service and efficient workflow
+- Diagnosed and resolved complex hardware and software issues for customers under time pressure
+- Mentored new technicians on diagnostic process while keeping shift throughput and service quality high
+- Coordinated day-to-day shift operations and customer communication
 
 ### Repair Technician - Garland Computers (2018 – 2022)
 Garland, TX
-- Built, repaired, and tested custom PCs, laptops, and servers
-- Performed hardware diagnostics, component replacement, and system optimization
-- Delivered technical solutions for individual and business clients
+- Built, repaired, and tested custom PCs, laptops, and servers for individual and business clients
+- Performed diagnostics, component replacement, and system optimization with attention to reliability
 
 ## Independent Projects
-- **Indie games (Godot / GDScript):** Multiple published games on itch.io (cry0smith.itch.io) with gameplay systems, UI/UX, and polish
-- **Multiplayer server administration:** Plugin install, config, backups, monitoring, networking, permissions, security, uptime
-- **Freelance web (React / JS / HTML / CSS):** Client sites and maintenance; example petalgear.com
+- **Freelance web (React):** Client sites and post-launch support; example petalgear.com
 - **Discord automation bots:** Moderation and workflow bots via Discord API
+- **Indie games (Godot):** Published games on cry0smith.itch.io; iterated from user feedback
+- **Multiplayer server administration:** Plugins, networking, permissions, backups, monitoring, security
 
 ## Technical Skills
 
-### Programming
-- **C#**, **C++**, **JavaScript**, **HTML**, **CSS**, **GDScript**
-- **React**, **Godot**, **Git**, **GitHub**, **Discord API**
+### Programming & Web
+- **JavaScript**, **React**, **HTML**, **CSS**
+- **Git / GitHub**
+- **Discord API** (bots / automation)
+- **Godot / GDScript** (published games)
 
-### Systems & Infrastructure
-- Windows, Linux, networking, server administration, hardware diagnostics and repair
+### Systems
+- Windows, Linux, networking basics
+- AWS exposure, MongoDB exposure
+- Server administration (multiplayer game servers)
+- Hardware/software diagnostics
 
 ### Domain Expertise
-- Game development (Godot)
-- Web front-end (React)
-- IT support / PC repair
-- Community tooling / Discord bots
+- Shipping client and personal software end to end
+- Customer-facing technical support and mentoring
+- API integration and automation
 
 ### Gaps relative to cloud / edge SWE roles (honest)
-- No listed production experience yet with Go, Rust, TypeScript, Python, or Cloudflare Workers / developer platform
-- Limited formal software engineering internship experience; strongest shipping signal is personal/freelance projects
+- Limited depth claimed in Go, Rust, TypeScript, Python, or Cloudflare Workers
+- AWS and MongoDB are exposure-level, not deep production ownership
+- No formal software engineering internship yet
 
 ## Publications
 None listed.
