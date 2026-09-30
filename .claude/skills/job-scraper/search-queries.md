@@ -26,7 +26,7 @@ site:indeed.com "entry level software engineer" Texas JavaScript OR React
 
 ### Priority 2: Software Engineering Internships
 
-Strong bridge roles while finishing AS (Dec 2026) and into 2027.
+Strong bridge roles while finishing AS (Spring 2027) and into 2027.
 
 ```
 site:linkedin.com/jobs "Software Engineer Intern" Dallas OR Austin OR Texas OR Remote

@@ -5,7 +5,7 @@ Dallas, TX · +1 (469) 243-8873 · giovannycse@gmail.com
 
 ## Summary
 
-Computer Science student (AS expected December 2026) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Combines customer-facing technical problem solving with mentoring experience as a Micro Center shift lead. Eager to contribute on a mentored team shipping real product features.
+Computer Science student (AS expected Spring 2027) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Combines customer-facing technical problem solving with mentoring experience as a Micro Center shift lead. Eager to contribute on a mentored team shipping real product features.
 
 ## Core Competencies
 
@@ -50,7 +50,7 @@ Configured plugins, networking, permissions, backups, monitoring, and security t
 ## Education
 
 **Associate of Science in Computer Science** — Austin Community College (Austin, TX)  
-Expected December 2026  
+Expected Spring 2027  
 In progress. Coursework focused on software development and programming fundamentals.
 
 ## Languages

@@ -72,7 +72,7 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: Mentorship quality, clear project scope, honest skill growth
 
 **Life situation alignment:** Consider personal constraints:
-- **Security:** Student graduating AS Dec 2026; paid roles preferred; work auth status TBD
+- **Security:** Student graduating AS Spring 2027; paid roles preferred; work auth status TBD
 - **Flexibility:** Full-time roles/internships must not conflict with required classes before graduation
 - **Professional development:** Prioritize mentorship and shipping real product code
 

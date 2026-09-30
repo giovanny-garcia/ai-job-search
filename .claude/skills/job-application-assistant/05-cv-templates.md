@@ -11,7 +11,7 @@ Use LaTeX moderncv only when a tailored two-page banking-style PDF is needed for
 ### Profile statement templates (Giovanny Garcia)
 
 **Junior SWE / general:**
-> Computer Science student (AS expected December 2026) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Micro Center shift-lead mentoring plus customer-facing troubleshooting.
+> Computer Science student (AS expected Spring 2027) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Micro Center shift-lead mentoring plus customer-facing troubleshooting.
 
 **SWE internship leaning:**
 > CS student who ships React apps, Discord API automation, and published Godot games. Seeking a software engineering internship on a mentored team shipping real product features.

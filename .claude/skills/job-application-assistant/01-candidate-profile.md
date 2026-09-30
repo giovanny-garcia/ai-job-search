@@ -10,14 +10,14 @@
 - **Website:** https://giovannygarcia.com
 - **Portfolio:** https://cry0smith.itch.io
 - **Languages:** English (fluent), Spanish (fluent)
-- **Status:** Computer Science student (AS expected Dec 2026); Search Quality Rater at Welocalize (remote)
+- **Status:** Computer Science student (AS expected Spring 2027); Search Quality Rater at Welocalize (remote)
 - **Constraints:** Based in Dallas, TX. Studying at Austin Community College. Austin onsite only if relocation/commute is feasible. Seeking Junior Software Engineer roles (and strong SWE internships as a bridge).
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| AS, Computer Science | Expected Dec 2026 | Austin Community College | Software development, programming fundamentals |
+| AS, Computer Science | Expected Spring 2027 | Austin Community College | Software development, programming fundamentals |
 
 ## Professional Experience
 

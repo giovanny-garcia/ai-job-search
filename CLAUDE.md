@@ -14,12 +14,12 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Name:** Giovanny Garcia
 - **Location:** Dallas, TX, USA (ACC student; Austin onsite only if commute/relocation works)
 - **Languages:** English (fluent), Spanish (fluent)
-- **Status:** CS student (AS expected Dec 2026); Search Quality Rater at Welocalize (2024–Present)
+- **Status:** CS student (AS expected Spring 2027); Search Quality Rater at Welocalize (2024–Present)
 - **Website:** https://giovannygarcia.com
 - **LinkedIn headline:** CS student | React & API projects | Junior Software Engineer
 
 ### Education
-- **AS in Computer Science** (Expected Dec 2026) - Austin Community College
+- **AS in Computer Science** (Expected Spring 2027) - Austin Community College
   - Coursework: software development and programming fundamentals
 
 ### Professional Experience
@@ -64,7 +64,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Deal-breakers
 - Roles that require skills you cannot truthfully claim
 - Austin onsite 3–5 days/week without a workable housing/commute plan from Dallas
-- Full-time terms that conflict with required classes before Dec 2026 graduation
+- Full-time terms that conflict with required classes before Spring 2027 graduation
 
 ## Repo Structure
 - `cv/resume.md` - **Master resume (simple markdown). Edit this first.** (copy also kept under `documents/cv/` locally)
