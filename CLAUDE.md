@@ -15,6 +15,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Location:** Dallas, TX, USA (ACC student; Austin onsite only if commute/relocation works)
 - **Languages:** English (fluent), Spanish (fluent)
 - **Status:** CS student (AS expected Dec 2026); Search Quality Rater at Welocalize (2024–Present)
+- **Website:** https://giovannygarcia.com
 - **LinkedIn headline:** CS student | React & API projects | Junior Software Engineer
 
 ### Education
