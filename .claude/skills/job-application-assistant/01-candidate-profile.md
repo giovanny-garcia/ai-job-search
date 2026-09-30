@@ -7,6 +7,7 @@
 - **Email:** giovannycse@gmail.com
 - **LinkedIn:** https://linkedin.com/in/giovanny-garcia07ab24322
 - **GitHub:** https://github.com/giovanny-garcia
+- **Website:** https://giovannygarcia.com
 - **Portfolio:** https://cry0smith.itch.io
 - **Languages:** English (fluent), Spanish (fluent)
 - **Status:** Computer Science student (AS expected Dec 2026); Search Quality Rater at Welocalize (remote)
