@@ -1,60 +1,77 @@
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
-
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Languages:** [YOUR_LANGUAGES with proficiency levels]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Giovanny Garcia
+- **Location:** Dallas, TX, USA
+- **Phone:** +1 (469) 243-8873
+- **Email:** giovannycse@gmail.com
+- **LinkedIn:** https://linkedin.com/in/giovanny-garcia07ab24322
+- **GitHub:** https://github.com/giovanny-garcia
+- **Website:** https://giovannygarcia.com
+- **Portfolio:** https://cry0smith.itch.io
+- **Languages:** English (fluent), Spanish (fluent)
+- **Status:** Computer Science student (AS expected Spring 2027); Search Quality Rater at Welocalize (remote)
+- **Constraints:** Based in Dallas, TX. Studying at Austin Community College. Austin onsite only if relocation/commute is feasible. Seeking Junior Software Engineer roles (and strong SWE internships as a bridge).
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| AS, Computer Science | Expected Spring 2027 | Austin Community College | Software development, programming fundamentals |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Search Quality Rater - Welocalize (2024 – Present)
+Remote
+- Evaluated search results for relevance, accuracy, and quality across diverse topics under defined guidelines
+- Practiced careful research, consistent judgment, and written documentation in a fully remote setting
 
-<!-- Add more roles as needed -->
+### Repair Technician / Shift Lead - Micro Center (2022 – 2024)
+Dallas, TX
+- Diagnosed and resolved complex hardware and software issues for customers under time pressure
+- Mentored new technicians on diagnostic process while keeping shift throughput and service quality high
+- Coordinated day-to-day shift operations and customer communication
+
+### Repair Technician - Garland Computers (2018 – 2022)
+Garland, TX
+- Built, repaired, and tested custom PCs, laptops, and servers for individual and business clients
+- Performed diagnostics, component replacement, and system optimization with attention to reliability
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **Freelance web (React):** Client sites and post-launch support; example petalgear.com
+- **Discord automation bots:** Moderation and workflow bots via Discord API
+- **Indie games (Godot):** Published games on cry0smith.itch.io; iterated from user feedback
+- **Multiplayer server administration:** Plugins, networking, permissions, backups, monitoring, security
 
 ## Technical Skills
 
-### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+### Programming & Web
+- **JavaScript**, **React**, **HTML**, **CSS**
+- **Git / GitHub**
+- **Discord API** (bots / automation)
+- **Godot / GDScript** (published games)
+
+### Systems
+- Windows, Linux, networking basics
+- AWS exposure, MongoDB exposure
+- Server administration (multiplayer game servers)
+- Hardware/software diagnostics
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- Shipping client and personal software end to end
+- Customer-facing technical support and mentoring
+- API integration and automation
 
-### Software & Tools
-- [TOOL_LIST]
+### Gaps relative to cloud / edge SWE roles (honest)
+- Limited depth claimed in Go, Rust, TypeScript, Python, or Cloudflare Workers
+- AWS and MongoDB are exposure-level, not deep production ownership
+- No formal software engineering internship yet
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+None listed.
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+None listed.
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
-
-More references available upon request.
+Available upon request.
