@@ -1,7 +1,5 @@
 # Interview Preparation Guide
 
-<!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
-
 ## STAR Format
 
 Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
@@ -10,44 +8,47 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Published Godot games (shipping / ownership)
+**S:** Wanted to finish and publish games rather than leave them as unfinished demos
+**T:** Build playable games with core systems, UI, and polish, then release publicly
+**A:** Used Godot and GDScript; iterated on mechanics and UX; published on itch.io
+**R:** Live projects on cry0smith.itch.io with real player feedback
+**Use for:** "Tell me about a project you shipped", "How do you finish work?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Micro Center shift lead (mentoring / leadership)
+**S:** Store needed reliable repair throughput and newer techs trained on process
+**T:** Diagnose repairs, train technicians, and lead shifts
+**A:** Coached on diagnostics and customer communication; coordinated daily workflow
+**R:** Kept service moving while mentoring others under time pressure
+**Use for:** "Leadership without authority", "Working with a team"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Multiplayer server admin (systems / reliability)
+**S:** Game community needed stable multiplayer servers
+**T:** Keep servers configured, secure, and online
+**A:** Installed plugins, set permissions/networking, backups, monitoring, incident troubleshooting
+**R:** More reliable uptime and fewer repeated config failures
+**Use for:** "Debugging under pressure", "Interest in infrastructure"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
-
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Freelance React site (client delivery)
+**S:** Client needed a responsive website and ongoing updates
+**T:** Design/build in React/JS/HTML/CSS and support after launch
+**A:** Built responsive UI, shipped updates, handled maintenance requests
+**R:** Live site (e.g. petalgear.com) with continued support
+**Use for:** "Working with stakeholders", "Front-end experience"
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why are you leaving / changing paths from repair work?"
+> Repair taught me diagnostics and customer communication. I already ship software on my own (games, web, bots). I want a role where writing and shipping code is the main job, with mentorship at production scale.
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "You don't have Go / Rust / TypeScript / production cloud experience."
+> True for production at Cloudflare's scale. I do have C++, JavaScript, Git, Linux/networking, and shipped projects. I learn stacks by building; an internship is exactly how I want to grow into those tools on a real team.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Strong mid-level software engineer who can own features in production systems, still shipping, ideally deeper into systems or product engineering.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> I can over-scope personal projects. I mitigate by defining a shippable MVP and publishing (itch.io / client sites) instead of polishing forever.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

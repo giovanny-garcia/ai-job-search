@@ -1,14 +1,31 @@
 # CV Templates and Tailoring Guide
 
-<!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
+## Preferred source of truth: simple Markdown
+
+**Master resume:** `cv/resume.md` (tracked). A local copy may also live in `documents/cv/` (gitignored personal folder).
+
+Edit the markdown file first. Keep it one page, plain headings, no icons or columns. Export to PDF/DOCX from the markdown when a simple application upload is enough.
+
+Use LaTeX moderncv only when a tailored two-page banking-style PDF is needed for a specific employer.
+
+### Profile statement templates (Giovanny Garcia)
+
+**Junior SWE / general:**
+> Computer Science student (AS expected Spring 2027) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Micro Center shift-lead mentoring plus customer-facing troubleshooting.
+
+**SWE internship leaning:**
+> CS student who ships React apps, Discord API automation, and published Godot games. Seeking a software engineering internship on a mentored team shipping real product features.
+
+**Web / product leaning:**
+> CS student who builds client-facing React sites and ships complete projects end to end. Seeking a Junior Software Engineer role focused on product software.
 
 ## Template: LaTeX moderncv (Banking Style)
 
-All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
+LaTeX CVs use the moderncv package with the "banking" style and "blue" color scheme.
 
 **Output file:** `cv/main_<company>.tex`
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
-**Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
+**Master reference:** `documents/cv/resume.md` (content) and `cv/main_example.tex` (LaTeX layout)
 
 ### Compile command
 

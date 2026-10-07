@@ -1,83 +1,74 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Giovanny Garcia
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Giovanny Garcia, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
-2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
+2. **CV tailoring** - Adapt the markdown master resume and LaTeX templates to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
 4. **Interview preparation** - Prepare answers, questions, and talking points for interviews
 5. **Career strategy** - Advise on positioning and personal branding
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Giovanny Garcia
+- **Location:** Dallas, TX, USA (ACC student; Austin onsite only if commute/relocation works)
+- **Languages:** English (fluent), Spanish (fluent)
+- **Status:** CS student (AS expected Spring 2027); Search Quality Rater at Welocalize (2024–Present)
+- **Website:** https://giovannygarcia.com
+- **LinkedIn headline:** CS student | React & API projects | Junior Software Engineer
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **AS in Computer Science** (Expected Spring 2027) - Austin Community College
+  - Coursework: software development and programming fundamentals
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Search Quality Rater** (2024 – Present) - **Welocalize** (Remote)
+  - Search quality evaluation, research, remote documentation
+- **Repair Technician / Shift Lead** (2022 – 2024) - **Micro Center** (Dallas, TX)
+  - Hardware/software repair; mentor technicians; lead shifts
+- **Repair Technician** (2018 – 2022) - **Garland Computers** (Garland, TX)
+  - Build/repair PCs, laptops, servers; diagnostics and optimization
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** JavaScript, React, HTML, CSS, Git/GitHub, Discord API
+- **Secondary:** Godot/GDScript, Windows/Linux, networking, server admin, AWS exposure, MongoDB exposure
+- **Domain:** Client web delivery, automation bots, game shipping, IT support/mentoring
+- **Software:** React, GitHub, Godot, Discord API
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None listed yet
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed yet
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Hands-on builder** - Ships complete projects (web, bots, games, servers)
+- **Mentor / shift lead** - Trains others and owns customer-facing fixes
+- **Strengths:** Troubleshooting, finishing projects, bilingual communication
+- **Growth areas:** Deeper cloud/backend production experience beyond exposure-level AWS/MongoDB
+- **Thrives in:** Mentored teams shipping real product features
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Shipping software people actually use
+- Contributing on a mentored team to real product features
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Junior Software Engineer / entry-level SWE
+- SWE internships as a bridge into full-time
+- Web / product / tooling teams with strong mentorship
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles that require skills you cannot truthfully claim
+- Austin onsite 3–5 days/week without a workable housing/commute plan from Dallas
+- Full-time terms that conflict with required classes before Spring 2027 graduation
 
 ## Repo Structure
-- `cv/` - LaTeX CV variants (moderncv template, banking style)
+- `cv/resume.md` - **Master resume (simple markdown). Edit this first.** (copy also kept under `documents/cv/` locally)
+- `cv/` - LaTeX CV variants (moderncv template, banking style) for tailored applications
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools
@@ -85,7 +76,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
+3. If good fit: update/tailor from `cv/resume.md`, create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`) when needed
 4. **Verify both documents** (see Verification Checklist below)
 5. Prepare interview talking points based on the role requirements and your strengths
 
@@ -107,22 +98,22 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Nice-to-have requirements are highlighted where there is a match
 
 ### Consistency
-- [ ] CV follows the standard 2-page moderncv/banking format
+- [ ] CV follows the chosen format (simple markdown master, or moderncv/banking when LaTeX is used)
 - [ ] Cover letter uses cover.cls template and established structure
 - [ ] Tone is consistent across CV and cover letter
 - [ ] No contradictions between CV and cover letter content
 
 ### Quality
-- [ ] No LaTeX syntax errors (balanced braces, correct commands)
+- [ ] No LaTeX syntax errors (balanced braces, correct commands) when LaTeX is used
 - [ ] No spelling or grammar errors
 - [ ] Agentic coding / AI tooling references mention **Claude Code** by name
 - [ ] Cover letter is addressed to the correct person (or "Dear Hiring Manager" if unknown)
 - [ ] Cover letter fits approximately one page
 
-### Compiled PDF verification (MANDATORY - never skip)
-Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
+### Compiled PDF verification (MANDATORY for LaTeX - never skip)
+Both LaTeX documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
 - [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec).
-- [ ] **CV is exactly 2 pages** - not 1, not 3
+- [ ] **CV is exactly 2 pages** - not 1, not 3 (when using moderncv banking template)
 - [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
 - [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
 - [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`

@@ -1,18 +1,11 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Master LaTeX CV - Giovanny Garcia
+%% Prefer editing cv/resume.md first (simple markdown source of truth).
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,146 +17,86 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
-    pdfpagemode=FullScreen,
+    pdftitle={Giovanny Garcia - CV},
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Giovanny}{Garcia}
+\address{Dallas, TX}{}{}
+\phone[mobile]{+1 469 243 8873}
+\email{giovannycse@gmail.com}
+\extrainfo{\href{https://giovannygarcia.com}{giovannygarcia.com}, \href{https://linkedin.com/in/giovanny-garcia07ab24322}{LinkedIn}, \href{https://github.com/giovanny-garcia}{GitHub}, \href{https://cry0smith.itch.io}{Portfolio}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{Computer Science student (AS expected Spring 2027) and builder seeking a Junior Software Engineer role. Ships React web applications, API-driven automation, and production-facing projects with Git-based workflows. Combines customer-facing technical problem solving with mentoring experience as a Micro Center shift lead. Eager to contribute on a mentored team shipping real product features.}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Web \& Full-Stack Foundations}: JavaScript, React, HTML, CSS; freelance client delivery (\href{https://petalgear.com}{petalgear.com})
+\item \textbf{Shipping Software}: End-to-end ownership from build through release, iteration, and support
+\item \textbf{APIs \& Automation}: Discord API bots for moderation and workflow automation
+\item \textbf{Collaboration \& Mentoring}: Trained technicians and led shifts at Micro Center; English and Spanish
+\item \textbf{Systems Fluency}: Git/GitHub, Windows/Linux, networking basics, AWS and MongoDB exposure
 \end{itemize}
 
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
+\section{Selected Projects}
+\vspace{3pt}
+\begin{itemize}
+\item{\cventry{}{Freelance Web Development}{React}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built responsive client sites; delivered updates and support after launch (\href{https://petalgear.com}{petalgear.com})
+\end{itemize}}}
+\item{\cventry{}{Discord Automation Bots}{Discord API}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Moderation and workflow bots that reduced manual community admin work
+\end{itemize}}}
+\item{\cventry{}{Published Indie Games}{Godot}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Gameplay systems, UI/UX, polish; published and iterated from user feedback (\href{https://cry0smith.itch.io}{cry0smith.itch.io})
+\end{itemize}}}
+\item{\cventry{}{Multiplayer Server Administration}{}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Plugins, networking, permissions, backups, monitoring, and security for reliable uptime
+\end{itemize}}}
+\end{itemize}
 
 \section{Professional Experience}
 \vspace{3pt}
 \begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2024--Present}{Search Quality Rater}{Welocalize}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Evaluated search results for relevance and quality under defined guidelines
+    \item Careful research, consistent judgment, and written documentation in a remote setting
 \end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2022--2024}{Repair Technician / Shift Lead}{Micro Center}{Dallas, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Diagnosed and resolved hardware and software issues under time pressure
+    \item Mentored new technicians while keeping shift throughput and service quality high
+    \item Coordinated day-to-day shift operations and customer communication
 \end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2018--2022}{Repair Technician}{Garland Computers}{Garland, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Built, repaired, and tested PCs, laptops, and servers for consumers and businesses
+    \item Diagnostics, component replacement, and system optimization for reliability
 \end{itemize}}}
-
 \end{itemize}
-
-% ============================================================
-%     EDUCATION
-% ============================================================
 
 \section{Education}
-\vspace{1pt}
-\begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
 \vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
+\begin{itemize}
+\item{\cventry{Expected Spring 2027}{Associate of Science, Computer Science}{Austin Community College}{Austin, TX}{}{In progress. Coursework focused on software development and programming fundamentals.}}
 \end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
 
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item English (fluent), Spanish (fluent)
 \end{itemize}
 
 \end{document}
